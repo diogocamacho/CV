@@ -1,0 +1,135 @@
+---
+name: Diogo M. Camacho
+position: "Senior Bioinformatics Scientist"
+aboutme: Computational Systems Biology, Machine Learning, Bioinformatics
+address: "Wyss Institute for Biologically Inspired Engineering @ Harvard University"
+phone: +1 617 432 7004
+email: "diogo.camacho@wyss.harvard.edu"
+twitter: DiogoMCamacho
+github: diogocamacho
+linkedin: diogocamacho
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(glue)
+library(tibble)
+library(lubridate)
+library(here)
+library(scales)
+```
+
+```{r load_data, inclue=FALSE}
+jobs <- read_delim(here::here("data", "jobs.txt"), delim = "\t") %>%
+  fill(Start, End, What, With, Where, Tag) %>%  
+  mutate(Start = mdy(Start),
+         End = mdy(End)) %>% 
+  mutate(When = case_when(
+    is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
+    year(Start) == year(End) ~ year(End) %>% as.character(),
+    TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
+  ))
+
+funding <- read_delim(here::here("data/funding.txt"), delim = "\t")
+
+education <- read_delim(here::here("data", "education.txt"), delim = "\t") %>%
+  fill(Start, End, What, With, Where, Tag) %>%  
+  mutate(Start = mdy(Start),
+         End = mdy(End)) %>% 
+  mutate(When = case_when(
+    is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
+    year(Start) == year(End) ~ year(End) %>% as.character(),
+    TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
+  ))
+
+pubs <- read_delim(here::here("data", "pubs.txt"), delim = "\t")
+```
+
+
+# Qualifications and research interests
+
+Formally trained biochemist with graduate and post-doctoral work in Computational Systems Biology, with a focus on network inference and machine learning. Industry experience in development and implementation of computational tools for omics data analysis, drug discovery and target identification. I have extensive experience in the analysis of diverse data types, from gene expression microarrays to next-generation sequencing, metabolomics and phosphoproteomics. I am interested in the application of machine learning/deep learning tools and techniques in the context of drug discovery, disease biology characterization, large data analytics for biology, while focused on bridging the gap between the computational and experimental labs through highly engaging and fruitful collaborations.
+
+
+# Technical Skills
+
+Machine learning, multi omics, R/Bioconductor, keras, perl, Latex, python, MATLAB, awk, bash. Adept user of OS X/macOS, Unix. Familiarity with cloud computing architectures (AWS) and high performance computing environments.
+
+
+# Education
+```{r edu}
+education %>% 
+  arrange(desc(Start)) %>% 
+  detailed_entries(
+    what = What,
+    when = When,
+    with = With,
+    where = Where,
+    why = Why
+  )
+```
+
+# Experience
+```{r jobs}
+jobs %>% 
+  arrange(desc(Start)) %>% 
+  detailed_entries(
+    what = What,
+    when = When,
+    with = With,
+    where = Where,
+    why = Why
+  )
+```
+
+
+# Awards and Grants
+```{r funding}
+funding %>% 
+  arrange(desc(date)) %>% 
+  detailed_entries(
+    what = role,
+    when = date,
+    with = paste0(award, " (", with, ")"),
+    where = dollar(prefix = "$", funding$amount)
+  )
+```
+
+
+# Publications
+```{r pubs}
+# pubs %>% 
+#   arrange(desc(date)) %>% 
+#   detailed_entries(
+#     what = title,
+#     when = date,
+#     with = authors,
+#     where = journal,
+#     why = paste(volume, pages)
+#   ) 
+
+pubs %>% 
+  dplyr::mutate(., tmp = paste0(authors, 
+                  ", (",
+                  date,
+                  "), ", 
+                  title, 
+                  ", ", 
+                  journal, 
+                  ", ", 
+                  volume, 
+                  ", ", 
+                  pages)) %>%
+  arrange(desc(date)) %>% 
+  detailed_entries(
+    what = tmp
+  )
+```
