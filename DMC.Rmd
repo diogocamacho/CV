@@ -1,6 +1,6 @@
 ---
 name: Diogo M. Camacho
-position: "Senior Bioinformatics Scientist"
+position: "Lead, Predictive BioAnalytics"
 aboutme: Computational Systems Biology, Machine Learning, Bioinformatics
 address: "Wyss Institute for Biologically Inspired Engineering @ Harvard University"
 phone: +1 617 432 7004
@@ -28,7 +28,7 @@ library(scales)
 ```
 
 ```{r load_data, inclue=FALSE}
-jobs <- read_delim(here::here("data", "jobs.txt"), delim = "\t") %>%
+jobs <- read_csv(here::here("data", "jobs.csv")) %>%
   fill(Start, End, What, With, Where, Tag) %>%  
   mutate(Start = mdy(Start),
          End = mdy(End)) %>% 
@@ -38,7 +38,7 @@ jobs <- read_delim(here::here("data", "jobs.txt"), delim = "\t") %>%
     TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
   ))
 
-funding <- read_delim(here::here("data/funding.txt"), delim = "\t")
+funding <- read_delim(here::here("data", "funding.txt"), delim = "\t")
 
 education <- read_delim(here::here("data", "education.txt"), delim = "\t") %>%
   fill(Start, End, What, With, Where, Tag) %>%  
@@ -56,39 +56,95 @@ pubs <- read_delim(here::here("data", "pubs.txt"), delim = "\t")
 
 # Qualifications and research interests
 
-Formally trained biochemist with graduate and post-doctoral work in Computational Systems Biology, with a focus on network inference and machine learning. Industry experience in development and implementation of computational tools for omics data analysis, drug discovery and target identification. I have extensive experience in the analysis of diverse data types, from gene expression microarrays to next-generation sequencing, metabolomics and phosphoproteomics. I am interested in the application of machine learning/deep learning tools and techniques in the context of drug discovery, disease biology characterization, large data analytics for biology, while focused on bridging the gap between the computational and experimental labs through highly engaging and fruitful collaborations.
+Highly effective computational system biologist, with graduate and post-doctoral work focusing on network inference and machine learning. Industry experience in development and implementation of computational tools for multi omics data analysis (including next-generation sequencing, metabolomics, proteomics), drug discovery, and target identification. I am interested in the application of machine learning/deep learning tools and techniques in the context of drug discovery, disease biology characterization, large data analytics for biology, while focused on bridging the gap between the computational and experimental labs through highly engaging and fruitful collaborations.
 
 
 # Technical Skills
 
-Machine learning, multi omics, R/Bioconductor, keras, perl, Latex, python, MATLAB, awk, bash. Adept user of OS X/macOS, Unix. Familiarity with cloud computing architectures (AWS) and high performance computing environments.
+Machine learning, multi omics data analytics, R/Bioconductor, keras, perl, Latex, python, MATLAB, awk, bash. Adept user of OS X/macOS, Unix. Familiarity with cloud computing architectures (AWS) and high performance computing environments.
 
 
 # Education
 ```{r edu}
-education %>% 
-  arrange(desc(Start)) %>% 
-  detailed_entries(
-    what = What,
-    when = When,
-    with = With,
-    where = Where,
-    why = Why
-  )
+# education %>% 
+#   arrange(desc(Start)) %>% 
+#   detailed_entries(
+#     what = What,
+#     when = When,
+#     with = With,
+#     where = Where,
+#     why = Why
+#   )
 ```
+
+**<span style="font-size:1em;">Virginia Polytechnic Institute and State University</span>** \hfill _Blacksburg, VA_  
+Ph.D. in Genetics, Bioinformatics, and Computational Biology \hfill _2007_
+
+**<span style="font-size:1em;">Faculdade de Ciencias da Universidade de Lisboa</span>** \hfill _Lisboa, Portugal_  
+B. Sc. in Biochemistry \hfill _2002_
+
+
 
 # Experience
 ```{r jobs}
-jobs %>% 
-  arrange(desc(Start)) %>% 
-  detailed_entries(
-    what = What,
-    when = When,
-    with = With,
-    where = Where,
-    why = Why
-  )
+# jobs %>% 
+#   arrange(desc(Start)) %>% 
+#   detailed_entries(
+#     what = What,
+#     when = When,
+#     with = With,
+#     where = Where,
+#     why = Why
+#   )
 ```
+
+**<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
+Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - Present_  
+
+ - Lead of the Predictive BioAnalytics Initiative at the Wyss Institute
+ - Development and implementation of research strategy for the Initiative, focusin on enabling ML/DL/AI capabilities
+ - Managerial and mentoring role, responsible for a team of computational biologists, bionformaticians, data analysts
+ - Involved in writing and managing federal grant applications and grant awards with DARPA, NIH
+ - Hands-on development of algorithms and computational approaches for dissemination internally and with corporate partners via R Shiny applications
+ - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics, proteomics, 16S rDNA sequencing) in support of diverse grant work
+
+**<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_  
+Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_  
+
+ - Lead Computational Systems Biology efforts supporting preclinical development of microbiome-focused therapeutics for oncology
+ - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) as well as a 16S rDNA sequencing analysis pipeline
+ - Responsible for the identification of novel therapeutic opportunities based on in-house and publicly available data
+ - Implemented analytical software tools to be used by bench scientists in R Shiny
+ - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
+ 
+**<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_  
+Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_  
+
+ - Developed an R Shiny application for the enrichment of pathways for plant transcriptomics 
+ 
+
+**<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_  
+Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_  
+
+ - Responsible for the identification of novel target opportunities for increased energy expenditure
+ - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)
+ - Implemented knowledge based and data driven construction of screening libraries for recombinant proteins, small peptides and RNAi
+ - Implemented analyses strategies (QC, statistical analyses, hit-calling) for high throughput screens
+ - Responsible for the implementation and maintenance of Ember�s portfolio management system and dissemination to senior scientific team
+ - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
+ 
+
+**<span style="font-size:1em;">Pfizer, Inc</span>** \hfill _Cambridge, MA_  
+Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _January 2011 - January 2014_  
+
+ - Developed and implemented a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
+ - Developed and implemented a methodology for metabolite set enrichment analysis for metabolomics data
+ - Performed data analysis in transcriptomics, proteomics and metabolomics for different partners within the organization with particular emphasis in Cardiovascular and Metabolic diseases
+ - Performed analysis of genetic data (genome-wide and metabolome-wide) from large sets of patient cohorts
+ - Implemented network inference tools for the analysis of large-scale data sets
+ - Involved in project decision-making process for the characterization of toxicology patterns of drugs and drug candidates
+
+ 
 
 
 # Awards and Grants
@@ -116,20 +172,78 @@ funding %>%
 #     why = paste(volume, pages)
 #   ) 
 
-pubs %>% 
-  dplyr::mutate(., tmp = paste0(authors, 
-                  ", (",
-                  date,
-                  "), ", 
-                  title, 
-                  ", ", 
-                  journal, 
-                  ", ", 
-                  volume, 
-                  ", ", 
-                  pages)) %>%
-  arrange(desc(date)) %>% 
-  detailed_entries(
-    what = tmp
-  )
+# tmp <- vector(mode = "list", length = nrow(pubs))
+# 
+# for (i in seq(1, length(tmp))) {
+#   a1 <- pubs[i, ]
+#   if (a1$pages == " ") {
+#     tmp[[i]] <- paste0(a1$authors, 
+#                   " (",
+#                   a1$date,
+#                   "), ", 
+#                   a1$title, 
+#                   ", ", 
+#                   a1$journal, 
+#                   ", ", 
+#                   a1$volume)
+#     
+#   } else {
+#     tmp[[i]] <- paste0(a1$authors, 
+#                   " (",
+#                   a1$date,
+#                   "), ", 
+#                   a1$title, 
+#                   ", ", 
+#                   a1$journal, 
+#                   ", ", 
+#                   a1$volume, 
+#                   ", ",
+#                   a1$pages)
+#   }
+# }
+# 
+# tmp <- do.call(args = tmp, what = rbind)
+# 
+# pubs %>% 
+#   tibble::add_column(., tmp = tmp) %>%
+#   arrange(desc(date)) %>% 
+#   detailed_entries(
+#     what = tmp
+#   )
+
+# pubs %>% 
+#   dplyr::mutate(., tmp = paste0(authors, 
+#                   " (",
+#                   date,
+#                   "), ", 
+#                   title, 
+#                   ", ", 
+#                   journal, 
+#                   ", ", 
+#                   volume, 
+#                   ", ", 
+#                   pages)) %>%
+#   arrange(desc(date)) %>% 
+#   detailed_entries(
+#     what = tmp
+#   )
 ```
+
+ - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (submitted)
+ - Valeri, J, Collins, KM, Lepe, BA, Lu, TK, **Camacho, DM** (2019), A convolutional neural network for interpretable prediction and redesign of toehold switches, _Nature communications_ (submitted)
+ - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531
+ - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic E. coli pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43
+ - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592
+ - Musah, S, Dimitrakakis, N, **Camacho, DM**, Church, GM, Ingber, DE (2018), Directed differentiation of human induced pluripotent stem cells into mature kidney podocytes and establishment of a Glomerulus Chip, _Nature Protocols_, 13, 1662-1685
+ - Paandey, SP, Winkler, JA, Li, H, **Camacho, DM**, Collins, JJ, Walker, GC (2014), Central role for RNase YbeY in Hfq-dependent and Hfq-independent small-RNA regulation in bacteria, _BMC Genomics_, 15, 121
+ - Galagan, JE, Minch, K, Peterson, M, Lyubetskya, A, Azzizi, E, Sweet, L, Gomes, A, Rustad, T, Dolganov, G, Glotova, I, Abeel, T, Mawhinney, C, Kennedy, A, Allard, R, Brabant, W, Krueger, A, Jaini, S, Honda, B, Yu, W-H, Hickey, M, Zucker, J, Garay, C, Weiner, B, Sisk, P, Stolte, C, Winkler, J, Van de Peer, Y, Iazzetti, P, *Camacho, D*, Dreyfuss, J, Liu, Y, Dorhoi, A, Mollenkopf, H-J, Drogaris, P, Lamontagne, J, Zhou, Y, Piquenot, J, Park, ST, Raman, S, Kaufmann, S, Mohney, R, Chelsky, D, Moody, B, Sherman, D, Schoolnik, G (2013), The Mycobacterium tuberculosis regulatory network and hypoxia, _Nature_, 499, 178-183
+ - Belenky, P, **Camacho, D**, Collins, JJ (2013), Fungicidal drugs induce a common oxidative-damage cellular death pathway, _Cell Reports_, 3, 350-358
+ - Marbach, D, Costello, JC, Kuffner, R, Vega, N, Prill, RJ, **Camacho, DM**, Allison, KR, the DREAM5 Consortium, Kellis, M, Collins, JJ, Stolovitzky, G (2012), Wisdom of crowds for robust gene network inference, _Nature Methods_, 9, 796-804
+ - Dwyer, DJ, **Camacho, DM**, Callura, JM, Kohanski, MA, Collins, JJ (2011), Antibiotic-induced bacterial cell death exhibits physiological and biochemical hallmarks of apoptosis, _Molecular Cell_, 46, 561-572
+ - Modi, SR, **Camacho, DM**, Kohanski, MA, Collins, JJ (2011), Functional characterization of bacterial sRNAs using a network biology approach, _Proc. Natl. Acad. Sci. USA_, 108, 15522-15527
+ - **Camacho, DM**, Collins, JJ (2009), Systems biology strikes gold, _Cell_, 137, 24-26
+ - **Camacho, D**, Vera-Licona, P, Laubenbacher, R, Mendes, P (2007), Comparison of existing reverse engineering methods by use of an in silico system, _Ann. N. Y. Acad. Sci._, 1115, 73-89
+ - Mendes, P, **Camacho, D**, de la Fuente, A (2005),	Modelling and simulation for metabolomics data analysis, _Biochem. Soc. Trans._, 33, 1427-1429
+ - **Camacho, D**, de la Fuente, A, Mendes, P (2005), The origin of correlations in metabolomics data, _Metabolomics_, 1, 53-63
+ - Martins, AM, **Camacho, D**, Shuman, J, Sha, W, Mendes, P, Shulaev, V (2004), A systems biology study of two distinct growth phases of _Saccharomyces cerevisiae_ cultures, _Curr. Genomics_, 5, 649-663
+

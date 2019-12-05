@@ -1,0 +1,37 @@
+Start,End,What,With,Where,Tag,Why
+1/15/15,4/15/16,"Senior Scientist, Computational Systems Biology Lead",Evelo Biosciences,"Cambridge, MA",research,Lead Computational Systems Biology supporting preclinical development of microbiome-focused therapeutics for oncology
+,,,,,,"Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) as well as a 16S rDNA sequencing analysis pipeline"
+,,,,,,Responsible for the identification of novel therapeutic opportunities based on in-house and publicly available data
+,,,,,,Implemented analytical software tools to be used by bench scientists in R Shiny
+,,,,,,"Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs"
+,,,,,,
+12/15/14,1/14/15,"Consultant, Computational Systems Biology",Symbiota,"Cambridge, MA",research,Developed an R Shiny application for the enrichment of pathways for plant transcriptomics
+,,,,,,
+1/14/14,12/14/14,"Senior Scientist, Computational Systems Biology Lead",Ember Therapeutics,"Watertown, MA",research,Responsible for the identification of novel target opportunities
+,,,,,,"Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)"
+,,,,,,"Implemented knowledge based and data driven construction of screening libraries for recombinant proteins, small peptides and RNAi"
+,,,,,,"Implemented analyses strategies (QC, statistical analyses, hit-calling) for high throughput screens"
+,,,,,,Responsible for the implementation and maintenance of Ember�s portfolio management system and dissemination to senior scientific team
+,,,,,,"Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs"
+,,,,,,
+1/14/11,1/13/14,"Senior Research Scientist, Computational Sciences Center of Emphasis ","Pfizer, Inc","Cambridge, MA",research,Developed and implemented a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
+,,,,,,Developed and implemented a methodology for metabolite set enrichment analysis for metabolomics data
+,,,,,,"Performed data analysis in transcriptomics, proteomics and metabolomics for different partners within the organization with particular emphasis in Cardiovascular and Metabolic diseases"
+,,,,,,Performed analysis of genetic data (genome-wide and metabolome-wide) from large sets of patient cohorts
+,,,,,,Implemented network inference tools for the analysis of large-scale data sets
+,,,,,,Involved in project decision-making process for the characterization of toxicology patterns of drugs and drug candidates
+,,,,,,
+7/15/07,1/13/11,Post-doctoral Fellow,Howard Hughes Medical Institute @ Boston University,"Boston, MA",research,Developed a network inference algorithm for identification of regulatory architectures of pathways
+,,,,,,Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data
+,,,,,,Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data
+,,,,,,Developed inference algorithm to study functional interactions in gene regulatory networks
+,,,,,,Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems
+,,,,,,Consulted in the implementation and usage of inference algorithms across platforms for biotechnology/pharmaceutical companies in the Boston area
+,,,,,,
+7/15/16,Present,"Lead, Predictive BioAnalytics, Advanced Technology Team",Wyss Institute @ Harvard University,"Boston, MA",research,"Lead of the Predictive BioAnalytics Initiative at the Wyss Institute"
+,,,,,,Development and implementation of research strategy for the Initiative, focusin on enabling ML/DL/AI capabilities
+,,,,,,"Managerial and mentoring role, responsible for a team of computational biologists, bionformaticians, data analysts"
+,,,,,,"Involved in writing and managing federal grant applications and grant awards with DARPA, NIH"
+,,,,,,"Hands-on development of algorithms and computational approaches for dissemination internally and with corporate partners via R Shiny applications"
+,,,,,,"Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics, proteomics, 16S rDNA sequencing) in support of diverse grant work"
+,,,,,,
