@@ -149,15 +149,19 @@ Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _Jan
 
 # Awards and Grants
 ```{r funding}
-funding %>% 
-  arrange(desc(date)) %>% 
-  detailed_entries(
-    what = role,
-    when = date,
-    with = paste0(award, " (", with, ")"),
-    where = dollar(prefix = "$", funding$amount)
-  )
+# funding %>% 
+#   arrange(desc(date)) %>% 
+#   detailed_entries(
+#     what = role,
+#     when = date,
+#     with = paste0(award, " (", with, ")"),
+#     where = dollar(prefix = "$", funding$amount)
+#   )
 ```
+
+**<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_  
+co-PI \hfill _9/1/17_  
+
 
 
 # Publications
