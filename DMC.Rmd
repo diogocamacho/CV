@@ -25,9 +25,7 @@ library(tibble)
 library(lubridate)
 library(here)
 library(scales)
-```
 
-```{r load_data, inclue=FALSE}
 jobs <- read_csv(here::here("data", "jobs.csv")) %>%
   fill(Start, End, What, With, Where, Tag) %>%  
   mutate(Start = mdy(Start),
@@ -145,8 +143,6 @@ Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _Jan
  - Involved in project decision-making process for the characterization of toxicology patterns of drugs and drug candidates
 
  
-
-
 # Awards and Grants
 ```{r funding}
 # funding %>% 
@@ -233,21 +229,27 @@ co-PI \hfill _9/1/17_
 #   )
 ```
 
- - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (submitted)
- - Valeri, J, Collins, KM, Lepe, BA, Lu, TK, **Camacho, DM** (2019), A convolutional neural network for interpretable prediction and redesign of toehold switches, _Nature communications_ (submitted)
- - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531
- - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic E. coli pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43
- - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592
- - Musah, S, Dimitrakakis, N, **Camacho, DM**, Church, GM, Ingber, DE (2018), Directed differentiation of human induced pluripotent stem cells into mature kidney podocytes and establishment of a Glomerulus Chip, _Nature Protocols_, 13, 1662-1685
- - Paandey, SP, Winkler, JA, Li, H, **Camacho, DM**, Collins, JJ, Walker, GC (2014), Central role for RNase YbeY in Hfq-dependent and Hfq-independent small-RNA regulation in bacteria, _BMC Genomics_, 15, 121
- - Galagan, JE, Minch, K, Peterson, M, Lyubetskya, A, Azzizi, E, Sweet, L, Gomes, A, Rustad, T, Dolganov, G, Glotova, I, Abeel, T, Mawhinney, C, Kennedy, A, Allard, R, Brabant, W, Krueger, A, Jaini, S, Honda, B, Yu, W-H, Hickey, M, Zucker, J, Garay, C, Weiner, B, Sisk, P, Stolte, C, Winkler, J, Van de Peer, Y, Iazzetti, P, *Camacho, D*, Dreyfuss, J, Liu, Y, Dorhoi, A, Mollenkopf, H-J, Drogaris, P, Lamontagne, J, Zhou, Y, Piquenot, J, Park, ST, Raman, S, Kaufmann, S, Mohney, R, Chelsky, D, Moody, B, Sherman, D, Schoolnik, G (2013), The Mycobacterium tuberculosis regulatory network and hypoxia, _Nature_, 499, 178-183
- - Belenky, P, **Camacho, D**, Collins, JJ (2013), Fungicidal drugs induce a common oxidative-damage cellular death pathway, _Cell Reports_, 3, 350-358
- - Marbach, D, Costello, JC, Kuffner, R, Vega, N, Prill, RJ, **Camacho, DM**, Allison, KR, the DREAM5 Consortium, Kellis, M, Collins, JJ, Stolovitzky, G (2012), Wisdom of crowds for robust gene network inference, _Nature Methods_, 9, 796-804
- - Dwyer, DJ, **Camacho, DM**, Callura, JM, Kohanski, MA, Collins, JJ (2011), Antibiotic-induced bacterial cell death exhibits physiological and biochemical hallmarks of apoptosis, _Molecular Cell_, 46, 561-572
- - Modi, SR, **Camacho, DM**, Kohanski, MA, Collins, JJ (2011), Functional characterization of bacterial sRNAs using a network biology approach, _Proc. Natl. Acad. Sci. USA_, 108, 15522-15527
- - **Camacho, DM**, Collins, JJ (2009), Systems biology strikes gold, _Cell_, 137, 24-26
- - **Camacho, D**, Vera-Licona, P, Laubenbacher, R, Mendes, P (2007), Comparison of existing reverse engineering methods by use of an in silico system, _Ann. N. Y. Acad. Sci._, 1115, 73-89
- - Mendes, P, **Camacho, D**, de la Fuente, A (2005),	Modelling and simulation for metabolomics data analysis, _Biochem. Soc. Trans._, 33, 1427-1429
- - **Camacho, D**, de la Fuente, A, Mendes, P (2005), The origin of correlations in metabolomics data, _Metabolomics_, 1, 53-63
- - Martins, AM, **Camacho, D**, Shuman, J, Sha, W, Mendes, P, Shulaev, V (2004), A systems biology study of two distinct growth phases of _Saccharomyces cerevisiae_ cultures, _Curr. Genomics_, 5, 649-663
+ - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (_submitted_)
+ - Valeri, J, Collins, KM, Lepe, BA, Lu, TK, **Camacho, DM** (2019), A convolutional neural network for interpretable prediction and redesign of toehold switches, _Nature communications_ (_submitted_)
+ - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
+ - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic _E. coli_ pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30890187)]
+ - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
+ - Musah, S, Dimitrakakis, N, **Camacho, DM**, Church, GM, Ingber, DE (2018), Directed differentiation of human induced pluripotent stem cells into mature kidney podocytes and establishment of a Glomerulus Chip, _Nature Protocols_, 13, 1662-1685 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29995874)]
+ - Paandey, SP, Winkler, JA, Li, H, **Camacho, DM**, Collins, JJ, Walker, GC (2014), Central role for RNase YbeY in Hfq-dependent and Hfq-independent small-RNA regulation in bacteria, _BMC Genomics_, 15, 121 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24511998)]
+ - Galagan, JE, Minch, K, Peterson, M, Lyubetskya, A, Azzizi, E, Sweet, L, Gomes, A, Rustad, T, Dolganov, G, Glotova, I, Abeel, T, Mawhinney, C, Kennedy, A, Allard, R, Brabant, W, Krueger, A, Jaini, S, Honda, B, Yu, W-H, Hickey, M, Zucker, J, Garay, C, Weiner, B, Sisk, P, Stolte, C, Winkler, J, Van de Peer, Y, Iazzetti, P, *Camacho, D*, Dreyfuss, J, Liu, Y, Dorhoi, A, Mollenkopf, H-J, Drogaris, P, Lamontagne, J, Zhou, Y, Piquenot, J, Park, ST, Raman, S, Kaufmann, S, Mohney, R, Chelsky, D, Moody, B, Sherman, D, Schoolnik, G (2013), The Mycobacterium tuberculosis regulatory network and hypoxia, _Nature_, 499, 178-183 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/23823726)]
+ - Belenky, P, **Camacho, D**, Collins, JJ (2013), Fungicidal drugs induce a common oxidative-damage cellular death pathway, _Cell Reports_, 3, 350-358 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/23416050)]
+ - Marbach, D, Costello, JC, Kuffner, R, Vega, N, Prill, RJ, **Camacho, DM**, Allison, KR, the DREAM5 Consortium, Kellis, M, Collins, JJ, Stolovitzky, G (2012), Wisdom of crowds for robust gene network inference, _Nature Methods_, 9, 796-804 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22796662)]
+ - Dwyer, DJ, **Camacho, DM**, Callura, JM, Kohanski, MA, Collins, JJ (2011), Antibiotic-induced bacterial cell death exhibits physiological and biochemical hallmarks of apoptosis, _Molecular Cell_, 46, 561-572 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22633370)]
+ - Modi, SR, **Camacho, DM**, Kohanski, MA, Collins, JJ (2011), Functional characterization of bacterial sRNAs using a network biology approach, _Proc. Natl. Acad. Sci. USA_, 108, 15522-15527 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21876160)]
+ - **Camacho, DM**, Collins, JJ (2009), Systems biology strikes gold, _Cell_, 137, 24-26 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/19345182)]
+ - **Camacho, D**, Vera-Licona, P, Laubenbacher, R, Mendes, P (2007), Comparison of existing reverse engineering methods by use of an in silico system, _Ann. N. Y. Acad. Sci._, 1115, 73-89 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17925358)]
+ - Mendes, P, **Camacho, D**, de la Fuente, A (2005),	Modelling and simulation for metabolomics data analysis, _Biochem. Soc. Trans._, 33, 1427-1429 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16246137)]
+ - **Camacho, D**, de la Fuente, A, Mendes, P (2005), The origin of correlations in metabolomics data, _Metabolomics_, 1, 53-63 [[Link](https://link.springer.com/article/10.1007/s11306-005-1107-3)]
+ - Martins, AM, **Camacho, D**, Shuman, J, Sha, W, Mendes, P, Shulaev, V (2004), A systems biology study of two distinct growth phases of _Saccharomyces cerevisiae_ cultures, _Curr. Genomics_, 5, 649-663 [[Link](https://www.ingentaconnect.com/content/ben/cg/2004/00000005/00000008/art00005)]
 
+
+# Patents
+ - Collins, JJ, Belenky, P, **Camacho, DM** (2015), Compositions and methods for treating fungal infections, WO2014130922A1 [[Link](https://patents.google.com/patent/WO2014130922A1/en)]
+
+# References
+References will be provided upon request.
