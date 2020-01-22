@@ -27,29 +27,29 @@ library(lubridate)
 library(here)
 library(scales)
 
-jobs <- read_csv(here::here("data", "jobs.csv")) %>%
-  fill(Start, End, What, With, Where, Tag) %>%  
-  mutate(Start = mdy(Start),
-         End = mdy(End)) %>% 
-  mutate(When = case_when(
-    is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
-    year(Start) == year(End) ~ year(End) %>% as.character(),
-    TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
-  ))
-
-funding <- read_delim(here::here("data", "funding.txt"), delim = "\t")
-
-education <- read_delim(here::here("data", "education.txt"), delim = "\t") %>%
-  fill(Start, End, What, With, Where, Tag) %>%  
-  mutate(Start = mdy(Start),
-         End = mdy(End)) %>% 
-  mutate(When = case_when(
-    is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
-    year(Start) == year(End) ~ year(End) %>% as.character(),
-    TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
-  ))
-
-pubs <- read_delim(here::here("data", "pubs.txt"), delim = "\t")
+# jobs <- read_csv(here::here("data", "jobs.csv")) %>%
+#   fill(Start, End, What, With, Where, Tag) %>%  
+#   mutate(Start = mdy(Start),
+#          End = mdy(End)) %>% 
+#   mutate(When = case_when(
+#     is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
+#     year(Start) == year(End) ~ year(End) %>% as.character(),
+#     TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
+#   ))
+# 
+# funding <- read_delim(here::here("data", "funding.txt"), delim = "\t")
+# 
+# education <- read_delim(here::here("data", "education.txt"), delim = "\t") %>%
+#   fill(Start, End, What, With, Where, Tag) %>%  
+#   mutate(Start = mdy(Start),
+#          End = mdy(End)) %>% 
+#   mutate(When = case_when(
+#     is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
+#     year(Start) == year(End) ~ year(End) %>% as.character(),
+#     TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
+#   ))
+# 
+# pubs <- read_delim(here::here("data", "pubs.txt"), delim = "\t")
 ```
 
 
@@ -100,57 +100,61 @@ B. Sc. in Biochemistry \hfill _2002_
 **<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
 Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - Present_  
 
- - Lead of the Predictive BioAnalytics Initiative at the Wyss Institute
+I am currently the group lead of the Predictive BioAnalytics Initiative at the Wyss Institute, where I lead a team of computational biologists, computer scientists, and software engineers to address challenges in machine learning and biomedical data sciences, both in-house or thtough external collaborations. Some of the functions associated with the role include:
+
  - Development and implementation of research strategy for the Initiative, focusin on enabling ML/DL/AI capabilities
- - Managerial and mentoring role, responsible for a team of computational biologists, bionformaticians, data analysts
- - Involved in writing and managing federal grant applications and grant awards with DARPA, NIH
+ - Managing and mentoring staff scientists, post-doctoral fellows, graduate students, and interns
+ - Writing and managing federal grant applications and grant awards with DARPA, NIH
  - Hands-on development of algorithms and computational approaches for dissemination internally and with corporate partners via R Shiny applications
  - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics, proteomics, 16S rDNA sequencing) in support of diverse grant work
 
 **<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_  
 Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_  
 
- - Lead Computational Systems Biology efforts supporting preclinical development of microbiome-focused therapeutics for oncology
- - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) as well as a 16S rDNA sequencing analysis pipeline
+As the lead Computational Systems Biologist at Evelo Biosciences, I was involved in the build out of the computational capabilities of the company, in support of preclinical development of microbiome-focused therapeutics for oncology. Some of the functions of the role included:
+
+ - Implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) as well as a 16S rDNA sequencing analysis pipeline
  - Responsible for the identification of novel therapeutic opportunities based on in-house and publicly available data
- - Implemented analytical software tools to be used by bench scientists in R Shiny
+ - Implementation of analytical software tools to be used by bench scientists in R Shiny
  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
  
 **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_  
 Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_  
 
- - Developed an R Shiny application for the enrichment of pathways for plant transcriptomics 
- 
+In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data.
+
 
 **<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_  
 Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_  
 
- - Responsible for the identification of novel target opportunities for increased energy expenditure
+At Ember Therapeutics I was the Computational Systems Biology lead, where I oversaw the implementation and deployment of novel analytical tools for the identification of novel target opportunities for increased energy expenditure, not only from publicly available data but also from data coming from internal efforts. Some of the functions of the role included:
+
  - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)
- - Implemented knowledge based and data driven construction of screening libraries for recombinant proteins, small peptides and RNAi
- - Implemented analyses strategies (QC, statistical analyses, hit-calling) for high throughput screens
- - Responsible for the implementation and maintenance of Ember�s portfolio management system and dissemination to senior scientific team
+ - Implementation of a knowledge based and data driven construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts
+ - Implementation of analytical strategies (QC, statistical analyses, hit-calling) for high throughput screens
  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
  
 
 **<span style="font-size:1em;">Pfizer, Inc</span>** \hfill _Cambridge, MA_  
 Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _January 2011 - January 2014_  
 
- - Developed and implemented a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
- - Developed and implemented a methodology for metabolite set enrichment analysis for metabolomics data
+I was a member of the Computational Sciences Center of Emphasis at Pfizer, providing computational support across different preclinical programs at the organization, from cardiovascular disease to pain management and drug repositioning efforts. Some of the functions of the role included:
+
+ - Development and implementation of a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
+ - Implementation of network inference tools for the analysis of large-scale data sets
+ - Development and implementation of a methodology for metabolite set enrichment analysis for metabolomics data
  - Performed data analysis in transcriptomics, proteomics and metabolomics for different partners within the organization with particular emphasis in Cardiovascular and Metabolic diseases
- - Performed analysis of genetic data (genome-wide and metabolome-wide) from large sets of patient cohorts
- - Implemented network inference tools for the analysis of large-scale data sets
- - Involved in project decision-making process for the characterization of toxicology patterns of drugs and drug candidates
- 
+
  **<span style="font-size:1em;">Howard Hughes Medical Institute @ Boston University</span>** \hfill _Boston, MA_  
 Post-doctoral Fellow \hfill _July 2007 - January 2011_ 
  
-- Developed a network inference algorithm for identification of regulatory architectures of pathways
-- Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data
-- Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data
-- Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems
-- Consulted in the implementation and usage of inference algorithms across platforms for biotechnology/pharmaceutical companies in the Boston area
+Post-doctoral training with Dr. James Collins at Boston University, focusing on the application of machine learning and network inference approaches in biomedicine. Some efforts included: 
+ 
+ - Developed a network inference algorithm for identification of regulatory architectures of pathways
+ - Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data
+ - Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data
+ - Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems
+ - Consulted in the implementation and usage of inference algorithms across platforms for biotechnology and pharmaceutical companies in the Boston area
 
  
 # Awards and Grants
