@@ -5,7 +5,7 @@ aboutme: Computational Systems Biology, Machine Learning, Bioinformatics
 address: "Wyss Institute for Biologically Inspired Engineering @ Harvard University"
 #phone: +1 617 432 7004
 phone: +1 617 945 4383
-email: "diogo.camacho@wyss.harvard.edu"
+email: "diogo.m.camacho@gmail.com"
 twitter: DiogoMCamacho
 github: diogocamacho
 linkedin: diogocamacho
@@ -26,30 +26,6 @@ library(tibble)
 library(lubridate)
 library(here)
 library(scales)
-
-# jobs <- read_csv(here::here("data", "jobs.csv")) %>%
-#   fill(Start, End, What, With, Where, Tag) %>%  
-#   mutate(Start = mdy(Start),
-#          End = mdy(End)) %>% 
-#   mutate(When = case_when(
-#     is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
-#     year(Start) == year(End) ~ year(End) %>% as.character(),
-#     TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
-#   ))
-# 
-# funding <- read_delim(here::here("data", "funding.txt"), delim = "\t")
-# 
-# education <- read_delim(here::here("data", "education.txt"), delim = "\t") %>%
-#   fill(Start, End, What, With, Where, Tag) %>%  
-#   mutate(Start = mdy(Start),
-#          End = mdy(End)) %>% 
-#   mutate(When = case_when(
-#     is.na(End) ~ glue("{year(Start)}--Present") %>% as.character(),
-#     year(Start) == year(End) ~ year(End) %>% as.character(),
-#     TRUE ~ glue("{year(Start)}--{year(End)}") %>% as.character()
-#   ))
-# 
-# pubs <- read_delim(here::here("data", "pubs.txt"), delim = "\t")
 ```
 
 
@@ -64,18 +40,6 @@ Machine learning, multi omics data analytics, R/Bioconductor, keras, perl, Latex
 
 
 # Education
-```{r edu}
-# education %>% 
-#   arrange(desc(Start)) %>% 
-#   detailed_entries(
-#     what = What,
-#     when = When,
-#     with = With,
-#     where = Where,
-#     why = Why
-#   )
-```
-
 **<span style="font-size:1em;">Virginia Polytechnic Institute and State University</span>** \hfill _Blacksburg, VA_  
 Ph.D. in Genetics, Bioinformatics, and Computational Biology \hfill _2007_
 
@@ -85,18 +49,6 @@ B. Sc. in Biochemistry \hfill _2002_
 
 
 # Experience
-```{r jobs}
-# jobs %>% 
-#   arrange(desc(Start)) %>% 
-#   detailed_entries(
-#     what = What,
-#     when = When,
-#     with = With,
-#     where = Where,
-#     why = Why
-#   )
-```
-
 **<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
 Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - Present_  
 
@@ -118,10 +70,10 @@ As the lead Computational Systems Biologist at Evelo Biosciences, I was involved
  - Implementation of analytical software tools to be used by bench scientists in R Shiny
  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
  
-**<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_  
-Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_  
+<!-- **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_   -->
+<!-- Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_   -->
 
-In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data.
+<!-- In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data. -->
 
 
 **<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_  
@@ -158,94 +110,19 @@ Post-doctoral training with Dr. James Collins at Boston University, focusing on 
 
  
 # Awards and Grants
-```{r funding}
-# funding %>% 
-#   arrange(desc(date)) %>% 
-#   detailed_entries(
-#     what = role,
-#     when = date,
-#     with = paste0(award, " (", with, ")"),
-#     where = dollar(prefix = "$", funding$amount)
-#   )
-```
+**<span style="font-size:1em;">Molecular circuits in the hematopoietic stem cell niche (NIH)</span>** \hfill _$415,000_  
+co-I \hfill _9/1/20_  
 
 **<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_  
 co-PI \hfill _9/1/17_  
 
 
 
+
 # Publications
-```{r pubs}
-# pubs %>% 
-#   arrange(desc(date)) %>% 
-#   detailed_entries(
-#     what = title,
-#     when = date,
-#     with = authors,
-#     where = journal,
-#     why = paste(volume, pages)
-#   ) 
-
-# tmp <- vector(mode = "list", length = nrow(pubs))
-# 
-# for (i in seq(1, length(tmp))) {
-#   a1 <- pubs[i, ]
-#   if (a1$pages == " ") {
-#     tmp[[i]] <- paste0(a1$authors, 
-#                   " (",
-#                   a1$date,
-#                   "), ", 
-#                   a1$title, 
-#                   ", ", 
-#                   a1$journal, 
-#                   ", ", 
-#                   a1$volume)
-#     
-#   } else {
-#     tmp[[i]] <- paste0(a1$authors, 
-#                   " (",
-#                   a1$date,
-#                   "), ", 
-#                   a1$title, 
-#                   ", ", 
-#                   a1$journal, 
-#                   ", ", 
-#                   a1$volume, 
-#                   ", ",
-#                   a1$pages)
-#   }
-# }
-# 
-# tmp <- do.call(args = tmp, what = rbind)
-# 
-# pubs %>% 
-#   tibble::add_column(., tmp = tmp) %>%
-#   arrange(desc(date)) %>% 
-#   detailed_entries(
-#     what = tmp
-#   )
-
-# pubs %>% 
-#   dplyr::mutate(., tmp = paste0(authors, 
-#                   " (",
-#                   date,
-#                   "), ", 
-#                   title, 
-#                   ", ", 
-#                   journal, 
-#                   ", ", 
-#                   volume, 
-#                   ", ", 
-#                   pages)) %>%
-#   arrange(desc(date)) %>% 
-#   detailed_entries(
-#     what = tmp
-#   )
-```
-
  - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep learning reveals glycan-mediated host-microbe interactions, _Cell Host & Microbe_ (_submitted_)
  - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (_submitted_)
- - Valeri, J, Collins, Ramesh, P, KM, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2019), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature communications_ (_submitted_)
+ - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2019), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature communications_ (_accepted_)
  - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
  - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic _E. coli_ pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30890187)]
  - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
