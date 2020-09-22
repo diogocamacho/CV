@@ -5,7 +5,7 @@ aboutme: Computational Systems Biology, Machine Learning, Bioinformatics
 address: "Wyss Institute for Biologically Inspired Engineering @ Harvard University"
 #phone: +1 617 432 7004
 phone: +1 617 945 4383
-email: "diogo.m.camacho@gmail.com"
+email: "diogo.camacho.2008@gmail.com"
 twitter: DiogoMCamacho
 github: diogocamacho
 linkedin: diogocamacho
@@ -106,12 +106,11 @@ Post-doctoral training with Dr. James Collins at Boston University, focusing on 
  - Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data
  - Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data
  - Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems
- - Consulted in the implementation and usage of inference algorithms across platforms for biotechnology and pharmaceutical companies in the Boston area
 
  
 # Awards and Grants
 **<span style="font-size:1em;">Molecular circuits in the hematopoietic stem cell niche (NIH)</span>** \hfill _$415,000_  
-co-I \hfill _9/1/20_  
+co-Investigator \hfill _9/1/20_  
 
 **<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_  
 co-PI \hfill _9/1/17_  
@@ -120,9 +119,9 @@ co-PI \hfill _9/1/17_
 
 
 # Publications
- - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep learning reveals glycan-mediated host-microbe interactions, _Cell Host & Microbe_ (_submitted_)
- - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (_submitted_)
- - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2019), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature communications_ (_accepted_)
+ - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep learning reveals glycan-mediated host-microbe interactions, _Cell Host & Microbe_ (_accepted_)
+ <!-- - Bojar, D, **Camacho, DM**, Collins, JJ (2019), Using natural language processing to learn the language of glycans, _Nature communications_ (_submitted_) -->
+ - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature communications_ (_accepted_)
  - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
  - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic _E. coli_ pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30890187)]
  - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
