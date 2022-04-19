@@ -1,8 +1,8 @@
 ---
 name: Diogo M. Camacho
-position: "Lead, Predictive BioAnalytics"
-aboutme: Computational Systems Biology, Machine Learning, Bioinformatics
-address: "Wyss Institute for Biologically Inspired Engineering @ Harvard University"
+position: "Senior Director"
+aboutme: Computational Biology and Bioinformatics
+address: "Rheos Medicines"
 #phone: +1 617 432 7004
 phone: +1 617 945 4383
 email: "diogo.camacho.2008@gmail.com"
