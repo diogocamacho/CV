@@ -51,12 +51,20 @@ B. Sc. in Biochemistry \hfill _2002_
 **<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
 Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - Present_  
 
+I currently lead the Computational Biology and Bioinformatics group at Rheos Medicines. The group is focused on advancing Rheos' Precision Medicine platform, developing tools and capabilities to integrate multi-omics data that are fed into machine learning algorithms for patient stratification, target identification, and biomarker discovery. Some of the functions associated with the role: 
+
+ - Implementation of Computational Biology and Bioinformatics strategy within the company
+ - Managing expectations of the Executive team in terms of current capabilities as well as areas for growth in 1-5 year plans.
+ - Management of team activities in line with cross-functional teams needs as well as development of internal capabilities to advance the Computational Biology and Bioinformatics function
+ - Managing the development of the Machine Learning and Deep Learning capabilities at Rheos through internal advancement or through collaborations with external partners
+ - Managing Computational Biology CRO engagement and deliverables
+
 **<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
 Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - November 2020_  
 
-As the group lead of the Predictive BioAnalytics Initiative at the Wyss Institute, I led a team of computational biologists, computer scientists, and software engineers to address challenges in machine learning and biomedical data sciences, both in-house or thtough external collaborations. Some of the functions associated with the role include:
+As the group lead of the Predictive BioAnalytics Initiative at the Wyss Institute, I led a team of computational biologists, computer scientists, and software engineers to address challenges in machine learning and biomedical data sciences, both in-house or thtough external collaborations. Some of the functions associated with the role included:
 
- - Development and implementation of research strategy for the Initiative, focusin on enabling ML/DL/AI capabilities
+ - Development and implementation of research strategy for the Initiative, focusing on enabling ML/DL/AI capabilities
  - Managing and mentoring staff scientists, post-doctoral fellows, graduate students, and interns
  - Writing and managing federal grant applications and grant awards with DARPA, NIH
  - Hands-on development of algorithms and computational approaches for dissemination internally and with corporate partners via R Shiny applications
@@ -119,12 +127,11 @@ co-PI \hfill _9/1/17_
 
 
 # Publications
- - DiSpirito, JR, Badur, MG, **Camacho, DM**, Chalishazar, A, DeChristopher, B, Sellers, K, Steadman, M, Soh, K, Monroe, J, Long, A (2021), Allosteric Inhibition of MALT1 Is Efficacious in a Model of Chronic Graft-Versus-Host Disease and Modulates Immunometabolic Activation, _Blood_, 138, 3810
- - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105
- - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2021), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _bioRxiv_
- - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2021), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _medRxiv_
- - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_ (_accepted_)
- - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature communications_ (_accepted_)
+ - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33777849/)]
+ - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2021), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _bioRxiv_ [[bioRxiv](https://www.biorxiv.org/content/10.1101/2021.09.30.462576v1)]
+ - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2021), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _medRxiv_ [[medRix](https://www.medrxiv.org/content/10.1101/2021.10.11.21264722v1)]
+ - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
+ - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
  - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
  - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic _E. coli_ pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30890187)]
  - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
