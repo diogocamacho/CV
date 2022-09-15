@@ -49,12 +49,20 @@ B. Sc. in Biochemistry \hfill _2002_
 
 # Experience
 **<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
-Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - Present_  
+Vice President, Computational Biology and Bioinformatics \hfill _July 2022 - present_  
 
-I currently lead the Computational Biology and Bioinformatics group at Rheos Medicines. The group is focused on advancing Rheos' Precision Medicine platform, developing tools and capabilities to integrate multi-omics data that are fed into machine learning algorithms for patient stratification, target identification, and biomarker discovery. Some of the functions associated with the role: 
+Currently leading a team of 15 computational biologists, machine learning scientists, and data analysts, to drive the discovery of novel chemical entities that can modulate cell behavior phenotypes. Some of the functions associated with the role include: 
+
+ - Implementation of Computational Biology strategy within the company, working closely with C-level executives
+ - Managing expectations of the Executive team in terms of current capabilities as well as areas for growth in 1-5 year plans.
+ - Management of team activities in line with cross-functional teams needs as well as development of internal capabilities to advance existing pre-clinical programs and platform advancements
+
+**<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
+Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - July 2022_  
+
+Led Computational Biology and Bioinformatics group at Rheos Medicines, focusing on advancing Rheos' Precision Medicine platform, developing tools and capabilities to integrate multi-omics data that are fed into machine learning algorithms for patient stratification, target identification, and biomarker discovery. Some of the functions associated with the role: 
 
  - Implementation of Computational Biology and Bioinformatics strategy within the company
- - Managing expectations of the Executive team in terms of current capabilities as well as areas for growth in 1-5 year plans.
  - Management of team activities in line with cross-functional teams needs as well as development of internal capabilities to advance the Computational Biology and Bioinformatics function
  - Managing the development of the Machine Learning and Deep Learning capabilities at Rheos through internal advancement or through collaborations with external partners
  - Managing Computational Biology CRO engagement and deliverables
