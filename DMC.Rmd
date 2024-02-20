@@ -35,7 +35,7 @@ Highly effective computational system biologist, with graduate and post-doctoral
 
 
 # Technical Skills
-Machine learning, multi omics data analytics, R/Bioconductor, keras, perl, Latex, python, MATLAB, awk, bash. Adept user of OS X/macOS, Unix. Familiarity with cloud computing architectures (AWS) and high performance computing environments.
+Machine learning, deep learning, multi omics data analytics, R/Bioconductor, python. Adept user of OS X/macOS, Unix. Familiarity with cloud computing architectures (AWS) and high performance computing environments.
 
 
 # Education
@@ -49,11 +49,11 @@ B. Sc. in Biochemistry \hfill _2002_
 
 # Experience
 **<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
-Vice President, Computational and Data Sciences \hfill _July 2022 - present_  
+Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
 
-Currently leading a team of 15 computational biologists, machine learning scientists, and data analysts, to drive the discovery of novel chemical entities that can modulate cell behavior phenotypes. Some of the functions associated with the role include: 
+Led a team of 15 computational biologists, machine learning scientists, and data analysts, to drive the discovery of novel chemical entities that can modulate cell behavior phenotypes. Some of the functions associated with the role include: 
 
- - Implementation of Computational Biology strategy within the company, working closely with C-level executives
+ - Implementation of Computational Biology and Machine Learning strategy within the company, working closely with C-level executives
  - Managing expectations of the Executive team in terms of current capabilities as well as areas for growth in 1-5 year plans.
  - Management of team activities in line with cross-functional teams needs as well as development of internal capabilities to advance existing pre-clinical programs and platform advancements
 
@@ -135,9 +135,10 @@ co-PI \hfill _9/1/17_
 
 
 # Publications
+ - Valeri, JA, Soenksen, LR, Collins, KM, Ramesh, P, Cai, G, Powers, R, Angenent--Mari, NA, **Camacho, DM**, Wong, F, Lu, TK, Collins, JJ (2023), BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences, _Cell Syst_, 14, 525 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/37348466/)]
  - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33777849/)]
- - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2021), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _bioRxiv_ [[bioRxiv](https://www.biorxiv.org/content/10.1101/2021.09.30.462576v1)]
- - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2021), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _medRxiv_ [[medRix](https://www.medrxiv.org/content/10.1101/2021.10.11.21264722v1)]
+ - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2022), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _Adv Sci_ [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35706367/)]
+ - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2022), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _Nature Biomed Eng_ [[PubMed](https://pubmed.ncbi.nlm.nih.gov/35739419/)]
  - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
  - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
  - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
