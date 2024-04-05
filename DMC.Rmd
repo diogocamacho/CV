@@ -33,7 +33,7 @@ library(scales)
 
 # Qualifications and research interests
 
-Highly effective and experienced executive in Computational System Biology and Machine Learning. Extensive experience in biotech/pharma in the development and implementation of computational tools for multi omics data analysis, drug discovery, and target identification. I am interested in the application of computational toolsin the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs through highly engaging and fruitful collaborations.
+Highly effective and experienced executive in Computational System Biology and Machine Learning, focusing on the  development and implementation of computational platorms in biotech/pharma. Adept strategist and operational leader, interested in the application of computational tools in the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs. Extensive experience in bringing novel data solutions to the organization, to extend data utilization to empower ML models. 
 
 
 # Technical Skills
@@ -50,6 +50,12 @@ B. Sc. in Biochemistry
 
 
 # Experience
+**<span style="font-size:1em;">42 Bio LLC</span>** \hfill _Sudbury, MA_  
+Founder / Owner \hfill _March 2024 - Present_
+
+42 Bio is a Computational Systems Biology and Machine Learning consulting firm, focusing on bringing computational solutions and strategical insights to its clients. 
+
+
 **<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
 Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
 
@@ -91,11 +97,11 @@ The Wyss Institute of Harvard University is focusing on translating discoveries 
 **<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_  
 Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_  
 
-As the lead Computational Systems Biologist at Evelo Biosciences, I was involved in the build out of the computational capabilities of the company, in support of preclinical development of microbiome-focused therapeutics for oncology. Some of the functions of the role included:
+First employee of Evelo Biosciences. Deeply involved in the build out of the computational and data infrastructure capabilities for the organization, above and beyond the scope of my role. As the lead Computational Systems Biologist: 
 
- - Implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) as well as a 16S rDNA sequencing analysis pipeline
- - Responsible for the identification of novel therapeutic opportunities based on in-house and publicly available data
- - Implementation of analytical software tools to be used by bench scientists in R Shiny
+ - Implemented diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)
+ - Implemented a 16S rDNA sequencing analysis pipeline
+ - Development of a novel algorithm for the identification of microbiome-focused therapies through sequence-based analyses  
  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
  
 <!-- **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_   -->
@@ -107,10 +113,10 @@ As the lead Computational Systems Biologist at Evelo Biosciences, I was involved
 **<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_  
 Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_  
 
-At Ember Therapeutics I was the Computational Systems Biology lead, where I oversaw the implementation and deployment of novel analytical tools for the identification of novel target opportunities for increased energy expenditure, not only from publicly available data but also from data coming from internal efforts. Some of the functions of the role included:
+Ember Therapeutics was focused on the identification of small molecules to modulate energy expenditure, which is implicated in weight loss and improved metabolic health. In my role: 
 
- - Responsible for the implementation of diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)
- - Implementation of a knowledge based and data driven construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts
+ - Responsible for the implementation of muti-omics analytical pipelines (RNA-seq, metabolomics)
+ - Implementation of a knowledge-based and data-driven approach for construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts
  - Implementation of analytical strategies (QC, statistical analyses, hit-calling) for high throughput screens
  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
  
@@ -121,9 +127,9 @@ Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _Jan
 I was a member of the Computational Sciences Center of Emphasis at Pfizer, providing computational support across different preclinical programs at the organization, from cardiovascular disease to pain management and drug repositioning efforts. Some of the functions of the role included:
 
  - Development and implementation of a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
- - Implementation of network inference tools for the analysis of large-scale data sets
  - Development and implementation of a methodology for metabolite set enrichment analysis for metabolomics data
- - Performed data analysis in transcriptomics, proteomics and metabolomics for different partners within the organization with particular emphasis in Cardiovascular and Metabolic diseases
+ - Involved in the analysis of a multi-omics data set for the characterization of the mechanism of action of a lead molecule for the Metabolic Diseases Research Unit
+ 
 
  **<span style="font-size:1em;">Howard Hughes Medical Institute @ Boston University</span>** \hfill _Boston, MA_  
 Post-doctoral Fellow \hfill _July 2007 - January 2011_ 
