@@ -154,8 +154,8 @@ co-PI \hfill _9/1/17_
 
 # Publications
  - Valeri, JA, Soenksen, LR, Collins, KM, Ramesh, P, Cai, G, Powers, R, Angenent--Mari, NA, **Camacho, DM**, Wong, F, Lu, TK, Collins, JJ (2023), BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences, _Cell Systems_, 14, 525 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/37348466/)]
- - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33777849/)]
  - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2022), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _Adv Sci_ [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/35706367/)]
+ - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33777849/)]
  - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2022), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _Nature Biomed Eng_ [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/35739419/)]
  - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
  - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
@@ -177,8 +177,10 @@ co-PI \hfill _9/1/17_
 
 
 # Patents
- - Novak, R, Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Nestor, BA, Fadel, C, Cronce, ML, Kasper, DL, Ingber, DE, Bein, A, Complex Human Gut Microbiome Cultured in an Anaerobic Human Gut-on-A-Chip, US20240002808A1 (2023)
- - Driggers, EM, Soh, K, **Camacho DM**, Transcriptional subseetting of patient cohorts based on metabolic pathway activity (_submitted_)
- - Garruss, AS,  Church, GM, **Camacho, DM**, Riboregulators and methods of use thereof (_submitted_)
- - Soenksen, LR, **Camacho, DM**, Collins, KM, Angenent-Mari, NM, Garruss, AS, Collins, JJ, Church, GM, Method for deep learning for RNA synthetic biology (_submitted_)
- - Collins, JJ, Belenky, P, **Camacho, DM** (2015), Compositions and methods for treating fungal infections, WO2014130922A1
+ - Methods for detecting cellular transitions (US Provisional, 63/612,266)
+ - Disease detection systems and methods (US Providional, 63/612,320)
+ - Systems and methods for predicting compounds associated with transcriptional signatures (US Non-provisional, 18/539,190; International PCT, PCT/US2023/083922)
+ - Contrastive systems and methods (US Non-provisional, 18/539,204; International PCT, PCT/US2023/083934)
+ - Complex Human Gut Microbiome Cultured in an Anaerobic Human Gut-on-A-Chip (US20240002808A1)
+ - Riboregulators and methods of use thereof (International PCT, PCT/US2020/064695)
+ - Compositions and methods for treating fungal infections (WO2014130922A1)
