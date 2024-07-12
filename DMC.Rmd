@@ -35,8 +35,8 @@ library(scales)
 
 Highly effective and experienced executive in Computational System Biology and Machine Learning, focusing on the  development and implementation of computational platforms in biotech/pharma. Adept strategist and operational leader, interested in the application of computational tools in the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs. Extensive experience in bringing novel data solutions to the organization, to extend data utilization to empower ML models. 
 
-# Soft Skills
-Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication | Founding VC Partners Communication | Corporate Partners Communication
+# Leadership Skills
+Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication
 
 # Technical Skills
 Machine learning | Deep learning | Multi-omics data analyses | R/Bioconductor | Python | AWS | Git
