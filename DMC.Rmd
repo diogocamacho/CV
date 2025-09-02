@@ -31,15 +31,122 @@ library(scales)
 ```
 
 
-# Qualifications and research interests
+# Executive Profile
 
-Highly effective and experienced executive in Computational System Biology and Machine Learning, focusing on the  development and implementation of computational platforms in biotech/pharma. Adept strategist and operational leader, interested in the application of computational tools in the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs. Extensive experience in bringing novel data solutions to the organization, to extend data utilization to empower ML models. 
+Transformational biotech executive with 15+ years building and leading computational biology and AI/ML functions across pharma, venture-backed startups, and translational research institutes. Proven track record in designing and operationalizing computational platforms that unlocked precision medicine insights, advanced multiple therapeutic programs, and shaped corporate strategy. Board-facing leader, experienced in guiding venture investors, alliances, and cross-functional R&D organizations through high-stakes decision points.
 
-# Leadership Skills
-Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication
+<!-- Highly effective and experienced executive in Computational System Biology and Machine Learning, focusing on the  development and implementation of computational platforms in biotech/pharma. Adept strategist and operational leader, interested in the application of computational tools in the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs. Extensive experience in bringing novel data solutions to the organization, to extend data utilization to empower ML models.  -->
 
-# Technical Skills
-Machine learning | Deep learning | Multi-omics data analyses | R/Bioconductor | Python | AWS | Git
+<!-- # Leadership Skills -->
+<!-- Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication -->
+
+# Core Leadership Strengths
+- Enterprise Strategy & Capital Allocation Impact: Built data/AI organizations that drove portfolio differentiation and created option value in novel drug discovery platforms.
+- Talent Builder: Scaled teams from first hire to high-performing cross-disciplinary groups; deep commitment to mentorship, succession, and leadership pipeline.
+- Operational Excellence: Implemented operating cadences, decision logs, and platform governance across startups and institute settings.
+- External Influence: Board/VC interface; secured DARPA and NIH grants; published >20 peer-reviewed papers and filed multiple patents.
+
+
+# Professional Experience
+**<span style="font-size:1em;">Flagship Pioneering</span>** \hfill _Sudbury, MA_  
+Senior Principal, Computation \hfill _October 2024 - Present_
+
+- Interim executive leadership: Served as acting head of Computational Sciences seed and early stage ventures, building strategies for hiring, contractor management, and external partnerships.
+- Platform strategy and execution: Shaped computational and data strategies for seed stage companies; directly developed platform capabilities while guiding overall bio-platform strategy.
+- Portfolio innovation: Served as origination leader for new AI-first ventures in partnership with Pioneering Intelligence.
+- Mentorship and talent building: Provided senior mentorship to computational biologists across portfolio; partnered in identification and hiring of computational heads of function for portfolio companies.
+
+
+**<span style="font-size:1em;">42 Bio LLC</span>** \hfill _Sudbury, MA_  
+Founder & Principal \hfill _March 2024 - Present_
+Independent consultancy advising biotech/pharma on computational systems biology and ML strategy, platform development, and data governance.
+
+**<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
+Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
+
+ - Member of R&D Leadership Team, reporting to the CSO
+ - Led 25-person computational org across bioinformatics, ML, and computational biology.
+ - Directed platform strategy and operations, enabling integration of Cellarity’s computational capabilities into R&D programs and investor narratives.
+ - Interfacing with external partners, board members, and founding VC partners on platform strategy
+ 
+
+**<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
+Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - July 2022_  
+
+- Established computational precision medicine strategy.
+- Defined and implemented Rheos’ data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs.
+- Delivered proprietary patient stratification algorithms and multi-omics platform.
+- Managed CRO alliances to build company Knowledge Graph.
+- Presented strategy to board and pharma partners.
+
+ 
+**<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
+Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - November 2020_  
+
+- Founded and led the Predictive BioAnalytics Initiative, defining and implementing research strategy to embed ML/AI capabilities in translational science.
+- Raised multi-million-dollar grants with DARPA and NIH, securing external validation and resources.
+- Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns, building a high-performing computational biology group.
+- Led the development and implementation of novel AI/ML tools for synthetic and systems biology.
+
+
+**<span style="font-size:1em;">Earlier Roles</span>** \hfill 
+
+- Evelo Biosciences: First computational hire; built data infrastructure.
+- Ember Therapeutics: Designed multi-omics pipelines for screening libraries.
+- Pfizer: Developed metabolite enrichment & network tools across preclinical portfolio.
+- HHMI Postdoctoral Fellow with Jim Collins (synthetic biology & ML pioneer).
+
+<!-- **<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_   -->
+<!-- Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_   -->
+
+<!-- First employee of Evelo Biosciences. Deeply involved in the build out of the computational and data infrastructure capabilities for the organization, above and beyond the scope of my role. As the lead Computational Systems Biologist:  -->
+
+<!--  - Implemented diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) -->
+<!--  - Implemented a 16S rDNA sequencing analysis pipeline -->
+<!--  - Development of a novel algorithm for the identification of microbiome-focused therapies through sequence-based analyses   -->
+<!--  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs -->
+ 
+<!-- **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_   -->
+<!-- Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_   -->
+
+<!-- In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data. -->
+
+
+<!-- **<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_   -->
+<!-- Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_   -->
+
+<!-- Ember Therapeutics was focused on the identification of small molecules to modulate energy expenditure, which is implicated in weight loss and improved metabolic health. In my role:  -->
+
+<!--  - Responsible for the implementation of muti-omics analytical pipelines (RNA-seq, metabolomics) -->
+<!--  - Implementation of a knowledge-based and data-driven approach for construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts -->
+<!--  - Implementation of analytical strategies (QC, statistical analyses, hit-calling) for high throughput screens -->
+<!--  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs -->
+
+
+<!-- **<span style="font-size:1em;">Pfizer, Inc</span>** \hfill _Cambridge, MA_   -->
+<!-- Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _January 2011 - January 2014_   -->
+
+<!-- I was a member of the Computational Sciences Center of Emphasis at Pfizer, providing computational support across different preclinical programs at the organization, from cardiovascular disease to pain management and drug repositioning efforts. Some of the functions of the role included: -->
+
+<!--  - Development and implementation of a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases -->
+<!--  - Development and implementation of a methodology for metabolite set enrichment analysis for metabolomics data -->
+<!--  - Involved in the analysis of a multi-omics data set for the characterization of the mechanism of action of a lead molecule for the Metabolic Diseases Research Unit -->
+
+
+<!--  **<span style="font-size:1em;">Howard Hughes Medical Institute @ Boston University</span>** \hfill _Boston, MA_   -->
+<!-- Post-doctoral Fellow \hfill _July 2007 - January 2011_  -->
+
+<!-- Post-doctoral training with Dr. James Collins at Boston University, focusing on the application of machine learning and network inference approaches in biomedicine.  -->
+
+<!-- Some efforts included:  -->
+
+<!--  - Developed a network inference algorithm for identification of regulatory architectures of pathways -->
+<!--  - Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data -->
+<!--  - Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data -->
+<!--  - Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems -->
+
+# Technical Fluency
+AI | Machine learning | Deep learning | Multi-omics data analyses | R/Bioconductor | Python | AWS | Git
 
 
 # Education
@@ -50,139 +157,23 @@ Ph.D. in Genetics, Bioinformatics, and Computational Biology
 B. Sc. in Biochemistry
 
 
+<!-- # Awards and Grants -->
+<!-- **<span style="font-size:1em;">Molecular circuits in the hematopoietic stem cell niche (NIH)</span>** \hfill _$415,000_   -->
+<!-- co-Investigator \hfill _9/1/20_   -->
 
-# Experience
-**<span style="font-size:1em;">42 Bio LLC</span>** \hfill _Sudbury, MA_  
-Founder / Owner \hfill _March 2024 - Present_
-
-42 Bio is a Computational Systems Biology and Machine Learning consulting firm, focusing on bringing computational solutions and strategical insights to its clients. 
-
-
-**<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
-Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
-
-Cellarity is leading the discovery of novel chemical entities that can modulate cell behavior phenotypes through single cell technologies. In my role: 
-
- - Core member of R&D Leadership Team
- - Implementation of vision, strategy, and operational framework for department 
- - Lead team of computational biologists, machine learning, and data scientists to deliver against program objectives
- - Lead of PLatform Core Team, setting strategic and operational frameworks for the implementation of Cellarity computational platform
- - Interfacing with external partners, board members, and founding VC partners on computational approaches at Cellarity
- 
-
-**<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
-Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - July 2022_  
-
-Rheos was a Precision Medicine company focused on integrating multi-omics data (transcriptomics and metabolomics) in the identification of novel targets for auto-immune disorders. In my role:
-
- - Led implementattion of MetPM platform, Rheos' computational platform for precision medicine
- - Implementation of Computational Biology and Bioinformatics strategy within the company
- - Development of novel algorithm for patient stratification based on metabolic pathway representations
- - Cross-functional integration of Computational Biology into programs at different stages of development
- - Managed interactions with computational CROs to ensure on time delivery of work
- - Led and managed relationships with ML CROs for implementation of Rheos' Knowledge Graph
- - Communication of computational developments to board members, founding VC partners, and corporate partners
- 
- 
-**<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
-Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - November 2020_  
-
-The Wyss Institute of Harvard University is focusing on translating discoveries done in the lab into tangible applications. In my role: 
-
- - Founding member of the Predictive BioAnalytics Initiative
- - Developed and implemented the research strategy for the Initiative, focusing on enabling ML/AI capabilities
- - Managed and mentored staff scientists, post-doctoral fellows, graduate students, and interns
- - Secure research funding through federal grants with DARPA, NIH
- - Hands-on development of algorithms and computational approaches
+<!-- **<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_   -->
+<!-- co-PI \hfill _9/1/17_   -->
 
 
-**<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_  
-Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_  
+# Board-Relevant Achievements
+- **Selected Publications**
+  - Valeri, JA, Soenksen, LR, Collins, KM, Ramesh, P, Cai, G, Powers, R, Angenent--Mari, NA, **Camacho, DM**, Wong, F, Lu, TK, Collins, JJ (2023), BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences, _Cell Systems_, 14, 525 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/37348466/)]
+  - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
+  - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
+  - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
+  - (Full list available on [\textcolor{cyan}{Google Scholar}](https://scholar.google.com/citations?user=JjKJpygAAAAJ&hl=en))
 
-First employee of Evelo Biosciences. Deeply involved in the build out of the computational and data infrastructure capabilities for the organization, above and beyond the scope of my role. As the lead Computational Systems Biologist: 
-
- - Implemented diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics)
- - Implemented a 16S rDNA sequencing analysis pipeline
- - Development of a novel algorithm for the identification of microbiome-focused therapies through sequence-based analyses  
- - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
- 
-<!-- **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_   -->
-<!-- Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_   -->
-
-<!-- In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data. -->
+- **Patents (6 filed)**: Methods for detecting cellular transitions; disease detection systems; compound prediction via transcriptional signatures; contrastive computational systems; microbiome therapeutics; riboregulators for engineered biology.
 
 
-**<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_  
-Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_  
-
-Ember Therapeutics was focused on the identification of small molecules to modulate energy expenditure, which is implicated in weight loss and improved metabolic health. In my role: 
-
- - Responsible for the implementation of muti-omics analytical pipelines (RNA-seq, metabolomics)
- - Implementation of a knowledge-based and data-driven approach for construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts
- - Implementation of analytical strategies (QC, statistical analyses, hit-calling) for high throughput screens
- - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs
- 
-
-**<span style="font-size:1em;">Pfizer, Inc</span>** \hfill _Cambridge, MA_  
-Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _January 2011 - January 2014_  
-
-I was a member of the Computational Sciences Center of Emphasis at Pfizer, providing computational support across different preclinical programs at the organization, from cardiovascular disease to pain management and drug repositioning efforts. Some of the functions of the role included:
-
- - Development and implementation of a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases
- - Development and implementation of a methodology for metabolite set enrichment analysis for metabolomics data
- - Involved in the analysis of a multi-omics data set for the characterization of the mechanism of action of a lead molecule for the Metabolic Diseases Research Unit
- 
-
- **<span style="font-size:1em;">Howard Hughes Medical Institute @ Boston University</span>** \hfill _Boston, MA_  
-Post-doctoral Fellow \hfill _July 2007 - January 2011_ 
- 
-Post-doctoral training with Dr. James Collins at Boston University, focusing on the application of machine learning and network inference approaches in biomedicine. 
-
-<!-- Some efforts included:  -->
-
-<!--  - Developed a network inference algorithm for identification of regulatory architectures of pathways -->
-<!--  - Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data -->
-<!--  - Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data -->
-<!--  - Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems -->
-
- 
-# Awards and Grants
-**<span style="font-size:1em;">Molecular circuits in the hematopoietic stem cell niche (NIH)</span>** \hfill _$415,000_  
-co-Investigator \hfill _9/1/20_  
-
-**<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_  
-co-PI \hfill _9/1/17_  
-
-
-# Publications
- - Valeri, JA, Soenksen, LR, Collins, KM, Ramesh, P, Cai, G, Powers, R, Angenent--Mari, NA, **Camacho, DM**, Wong, F, Lu, TK, Collins, JJ (2023), BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences, _Cell Systems_, 14, 525 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/37348466/)]
- - Sperry, MM, Novak, R, Keshari, V, Dinis, ALM, Cartwright, MJ, **Camacho, DM**, Paré, JF, Super, M, Levin, M, Ingber, DE (2022), Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches, _Adv Sci_ [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/35706367/)]
- - Gazzaniga, FS, **Camacho, DM**, Wu, M, Palazzo, MFS, Dinis, ALM, Grafton, FN, Cartwright, MJ, Super, M, Kasper, DL, Ingber, DE (2021), Harnessing Colon Chip technology to identify commensal bacteria that promote host tolerance to infection, _Frontiers in Cellular and Infection Microbiology_, 11, 105 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33777849/)]
- - Bein, A, ,Fadel, CW, Swenor, B, Cao, W, Powers, RK, **Camacho, DM**, Naziripour, A, Parsons, AW, LoGrande, NT, Sharma, S, Kim, S, Jalili-Firoozinezhad, S, Grant, J, Breault, DT, Iqbal, J, Ali, A, Denson, LA, Moore, SR, Prantil-Baun, R, Goyal, G, Ingber, DE (2022), Nutritional deficiency recapitulates intestinal injury associated with environmental enteric dysfunction in patient-derived Organ Chips, _Nature Biomed Eng_ [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/35739419/)]
- - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
- - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
- - Jalili-Firoozinezhad, S, Gazzaniga, FS, Calamari, EL, **Camacho, DM**, Fadel, C, Nestor, B, Cronce, MJ, Tovaglieri, A, Levy, O, Gregory, KE, Breault, DT, Cabral, JMS, Kasper, DL, Novak, R, Ingber, DE (2019),	A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip, _Nature Biomedical Engineering_, 3, 520-531 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/31086325)]
- - Tovaglieri, A, Sontheimer-Phelps, A, Geirnaert, A, Prantil-Baun, R, **Camacho, DM**, Chou, DB, Jalili-Firoozinezhad, S, de Wouters, T, Kasendra, M, Super, M, Cartwright, M, Richmond, CA, Breault, DT, Lacroix, C, Ingber, DE (2019), Species-specific enhancement of enterohemorrhagic _E. coli_ pathogenesis mediated by microbiome metabolites, _Microbiome_, 7, 43 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/30890187)]
- - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
- - Musah, S, Dimitrakakis, N, **Camacho, DM**, Church, GM, Ingber, DE (2018), Directed differentiation of human induced pluripotent stem cells into mature kidney podocytes and establishment of a Glomerulus Chip, _Nature Protocols_, 13, 1662-1685 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/29995874)]
- - Paandey, SP, Winkler, JA, Li, H, **Camacho, DM**, Collins, JJ, Walker, GC (2014), Central role for RNase YbeY in Hfq-dependent and Hfq-independent small-RNA regulation in bacteria, _BMC Genomics_, 15, 121 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/24511998)]
- - Galagan, JE, Minch, K, Peterson, M, Lyubetskya, A, Azzizi, E, Sweet, L, Gomes, A, Rustad, T, Dolganov, G, Glotova, I, Abeel, T, Mawhinney, C, Kennedy, A, Allard, R, Brabant, W, Krueger, A, Jaini, S, Honda, B, Yu, W-H, Hickey, M, Zucker, J, Garay, C, Weiner, B, Sisk, P, Stolte, C, Winkler, J, Van de Peer, Y, Iazzetti, P, **Camacho, D**, Dreyfuss, J, Liu, Y, Dorhoi, A, Mollenkopf, H-J, Drogaris, P, Lamontagne, J, Zhou, Y, Piquenot, J, Park, ST, Raman, S, Kaufmann, S, Mohney, R, Chelsky, D, Moody, B, Sherman, D, Schoolnik, G (2013), The Mycobacterium tuberculosis regulatory network and hypoxia, _Nature_, 499, 178-183 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/23823726)]
- - Belenky, P, **Camacho, D**, Collins, JJ (2013), Fungicidal drugs induce a common oxidative-damage cellular death pathway, _Cell Reports_, 3, 350-358 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/23416050)]
- - Marbach, D, Costello, JC, Kuffner, R, Vega, N, Prill, RJ, **Camacho, DM**, Allison, KR, the DREAM5 Consortium, Kellis, M, Collins, JJ, Stolovitzky, G (2012), Wisdom of crowds for robust gene network inference, _Nature Methods_, 9, 796-804 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/22796662)]
- - Dwyer, DJ, **Camacho, DM**, Callura, JM, Kohanski, MA, Collins, JJ (2011), Antibiotic-induced bacterial cell death exhibits physiological and biochemical hallmarks of apoptosis, _Molecular Cell_, 46, 561-572 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/22633370)]
- - Modi, SR, **Camacho, DM**, Kohanski, MA, Collins, JJ (2011), Functional characterization of bacterial sRNAs using a network biology approach, _Proc. Natl. Acad. Sci. USA_, 108, 15522-15527 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/21876160)]
- - **Camacho, DM**, Collins, JJ (2009), Systems biology strikes gold, _Cell_, 137, 24-26 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/19345182)]
- - **Camacho, D**, Vera-Licona, P, Laubenbacher, R, Mendes, P (2007), Comparison of existing reverse engineering methods by use of an in silico system, _Ann. N. Y. Acad. Sci._, 1115, 73-89 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/17925358)]
- - Mendes, P, **Camacho, D**, de la Fuente, A (2005),	Modelling and simulation for metabolomics data analysis, _Biochem. Soc. Trans._, 33, 1427-1429 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/16246137)]
- - **Camacho, D**, de la Fuente, A, Mendes, P (2005), The origin of correlations in metabolomics data, _Metabolomics_, 1, 53-63 [[\textcolor{cyan}{Link}](https://link.springer.com/article/10.1007/s11306-005-1107-3)]
- - Martins, AM, **Camacho, D**, Shuman, J, Sha, W, Mendes, P, Shulaev, V (2004), A systems biology study of two distinct growth phases of _Saccharomyces cerevisiae_ cultures, _Curr. Genomics_, 5, 649-663 [[\textcolor{cyan}{Link}](https://www.ingentaconnect.com/content/ben/cg/2004/00000005/00000008/art00005)]
-
-
-# Patents
- - Methods for detecting cellular transitions (US Provisional, 63/612,266)
- - Disease detection systems and methods (US Providional, 63/612,320)
- - Systems and methods for predicting compounds associated with transcriptional signatures (US Non-provisional, 18/539,190; International PCT, PCT/US2023/083922)
- - Contrastive systems and methods (US Non-provisional, 18/539,204; International PCT, PCT/US2023/083934)
- - Complex Human Gut Microbiome Cultured in an Anaerobic Human Gut-on-A-Chip (US20240002808A1)
- - Riboregulators and methods of use thereof (International PCT, PCT/US2020/064695)
- - Compositions and methods for treating fungal infections (WO2014130922A1)
+- **Grants & Capital**: Raised >$2.4M in competitive federal funding (DARPA, NIH) to support translational bioanalytics platforms.
