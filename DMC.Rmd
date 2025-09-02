@@ -41,60 +41,61 @@ Transformational biotech executive with 15+ years building and leading computati
 <!-- Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication -->
 
 # Core Leadership Strengths
-- Enterprise Strategy & Capital Allocation Impact: Built data/AI organizations that drove portfolio differentiation and created option value in novel drug discovery platforms.
-- Talent Builder: Scaled teams from first hire to high-performing cross-disciplinary groups; deep commitment to mentorship, succession, and leadership pipeline.
-- Operational Excellence: Implemented operating cadences, decision logs, and platform governance across startups and institute settings.
-- External Influence: Board/VC interface; secured DARPA and NIH grants; published >20 peer-reviewed papers and filed multiple patents.
+- **Enterprise Strategy & Capital Allocation Impact**: Built data/AI organizations that drove portfolio differentiation and created option value in novel drug discovery platforms.
+- **Talent Builder**: Scaled teams from first hire to high-performing cross-disciplinary groups; deep commitment to mentorship, succession, and leadership pipeline.
+- **Operational Excellence**: Implemented operating cadences, decision logs, and platform governance across startups and institute settings.
+- **External Influence**: Board/VC interface; secured DARPA and NIH grants; published >20 peer-reviewed papers and filed multiple patents.
 
 
 # Professional Experience
-**<span style="font-size:1em;">Flagship Pioneering</span>** \hfill _Sudbury, MA_  
+**<span style="font-size:1em;">Flagship Pioneering</span>** \hfill _Cambridge, MA_  
 Senior Principal, Computation \hfill _October 2024 - Present_
 
-- Interim executive leadership: Served as acting head of Computational Sciences seed and early stage ventures, building strategies for hiring, contractor management, and external partnerships.
-- Platform strategy and execution: Shaped computational and data strategies for seed stage companies; directly developed platform capabilities while guiding overall bio-platform strategy.
-- Portfolio innovation: Served as origination leader for new AI-first ventures in partnership with Pioneering Intelligence.
-- Mentorship and talent building: Provided senior mentorship to computational biologists across portfolio; partnered in identification and hiring of computational heads of function for portfolio companies.
+- **Interim executive leadership**: Served as acting head of Computational Sciences seed and early stage ventures, building strategies for hiring, contractor management, and external partnerships.
+- **Platform strategy and execution**: Shaped computational and data strategies for seed stage companies; directly developed platform capabilities while guiding overall bio-platform strategy.
+- **Portfolio innovation**: Served as origination leader for new AI-first ventures in partnership with Pioneering Intelligence.
+- **Mentorship and talent building**: Provided senior mentorship to computational biologists across portfolio; partnered in identification and hiring of computational heads of function for portfolio companies.
 
 
 **<span style="font-size:1em;">42 Bio LLC</span>** \hfill _Sudbury, MA_  
 Founder & Principal \hfill _March 2024 - Present_
-Independent consultancy advising biotech/pharma on computational systems biology and ML strategy, platform development, and data governance.
+
+ - **Strategic advisor**: Independent consultancy advising biotech/pharma on computational systems biology and ML strategy, platform development, and data governance.
 
 **<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
 Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
 
- - Member of R&D Leadership Team, reporting to the CSO
- - Led 25-person computational org across bioinformatics, ML, and computational biology.
- - Directed platform strategy and operations, enabling integration of Cellarity’s computational capabilities into R&D programs and investor narratives.
- - Interfacing with external partners, board members, and founding VC partners on platform strategy
+ - **Executive Leadership**: Member of R&D Leadership Team, reporting to the CSO.
+ - **Organizational build**: Led 25-person computational org across bioinformatics, ML, and computational biology.
+ - **Platform leadership**: Directed platform strategy and operations, enabling integration of Cellarity’s computational capabilities into R&D programs and investor narratives.
+ - **External engagement**: Interfacing with external partners, board members, and founding VC partners on platform strategy
  
 
 **<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
 Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - July 2022_  
 
-- Established computational precision medicine strategy.
-- Defined and implemented Rheos’ data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs.
-- Delivered proprietary patient stratification algorithms and multi-omics platform.
-- Managed CRO alliances to build company Knowledge Graph.
-- Presented strategy to board and pharma partners.
+- **Strategic leadership**: Established computational precision medicine strategy.
+- **Data strategy**: Defined and implemented Rheos’ data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs.
+- **Innovation**: Delivered proprietary patient stratification algorithms and multi-omics platform.
+- **Partnership management**: Managed CRO alliances to build company Knowledge Graph.
+- **Board engagement**: Presented strategy to board and pharma partners.
 
  
 **<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
 Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - November 2020_  
 
-- Founded and led the Predictive BioAnalytics Initiative, defining and implementing research strategy to embed ML/AI capabilities in translational science.
-- Raised multi-million-dollar grants with DARPA and NIH, securing external validation and resources.
-- Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns, building a high-performing computational biology group.
-- Led the development and implementation of novel AI/ML tools for synthetic and systems biology.
+- **Founding leadership**: Founded and led the Predictive BioAnalytics Initiative, defining and implementing research strategy to embed ML/AI capabilities in translational science.
+- **Capital acquisition**: Raised multi-million-dollar grants with DARPA and NIH, securing external validation and resources.
+- **Team leadership**: Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns, building a high-performing computational biology group.
+- **Innovation**: Led the development and implementation of novel AI/ML tools for synthetic and systems biology.
 
 
 **<span style="font-size:1em;">Earlier Roles</span>** \hfill 
 
-- Evelo Biosciences: First computational hire; built data infrastructure.
-- Ember Therapeutics: Designed multi-omics pipelines for screening libraries.
-- Pfizer: Developed metabolite enrichment & network tools across preclinical portfolio.
-- HHMI Postdoctoral Fellow with Jim Collins (synthetic biology & ML pioneer).
+- **Evelo Biosciences**: First computational hire; built data infrastructure.
+- **Ember Therapeutics**: Designed multi-omics pipelines for screening libraries.
+- **Pfizer**: Developed metabolite enrichment & network tools across preclinical portfolio.
+- **HHMI Postdoctoral Fellow** with Jim Collins (synthetic biology & ML pioneer).
 
 <!-- **<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_   -->
 <!-- Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_   -->
