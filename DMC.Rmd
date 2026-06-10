@@ -1,180 +1,75 @@
 ---
 name: Diogo M. Camacho
-#position: "Senior Director"
-#aboutme: Computational Biology and Bioinformatics
-#address: "Rheos Medicines"
-#phone: +1 617 432 7004
-phone: +1 617 945 4383
+phone: "+1 617 945 4383"
 email: "diogo.camacho.2008@gmail.com"
-#twitter: DiogoMCamacho
 github: diogocamacho
 linkedin: diogocamacho
 headcolor: 414141
 date: "`r format(Sys.time(), '%B %Y')`"
 urlcolor: blue
 linkcolor: blue
-output: 
-  vitae::awesomecv
+output:
+  vitae::awesomecv:
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
-library(tidyr)
-library(dplyr)
-library(readr)
-library(glue)
 library(tibble)
-library(lubridate)
-library(here)
-library(scales)
-```
+library(dplyr)
 
+source("parse_resume.R")
+
+# AZ-specific profile
+PROFILE <- "az_cvrm"
+```
 
 # Executive Profile
 
-Transformational biotech executive with 15+ years building and leading computational biology and AI/ML functions across pharma, venture-backed startups, and translational research institutes. Proven track record in designing and operationalizing computational platforms that unlocked precision medicine insights, advanced multiple therapeutic programs, and shaped corporate strategy. Board-facing leader, experienced in guiding venture investors, alliances, and cross-functional R&D organizations through high-stakes decision points.
+`r parse_summary()`
 
-<!-- Highly effective and experienced executive in Computational System Biology and Machine Learning, focusing on the  development and implementation of computational platforms in biotech/pharma. Adept strategist and operational leader, interested in the application of computational tools in the drug discovery, disease biology characterization, large data analytics for biology, while focusing on bridging the gap between the wet and dry labs. Extensive experience in bringing novel data solutions to the organization, to extend data utilization to empower ML models.  -->
-
-<!-- # Leadership Skills -->
-<!-- Servant Leadership | Mentorship | Operational Leadership | Team Building | Communication | Interdisciplinary Collaboration | External Partnerships | Board Communication -->
-
-# Core Leadership Strengths
-- **Enterprise Strategy & Capital Allocation Impact**: Built data/AI organizations that drove portfolio differentiation and created option value in novel drug discovery platforms.
-- **Talent Builder**: Scaled teams from first hire to high-performing cross-disciplinary groups; deep commitment to mentorship, succession, and leadership pipeline.
-- **Operational Excellence**: Implemented operating cadences, decision logs, and platform governance across startups and institute settings.
-- **External Influence**: Board/VC interface; secured DARPA and NIH grants; published >20 peer-reviewed papers and filed multiple patents.
-
+```{r summary_highlights, results='asis'}
+cat(parse_summary_highlights())
+```
 
 # Professional Experience
-**<span style="font-size:1em;">Flagship Pioneering</span>** \hfill _Cambridge, MA_  
-Senior Principal, Computation \hfill _October 2024 - Present_
 
-- **Interim executive leadership**: Served as acting head of Computational Sciences seed and early stage ventures, building strategies for hiring, contractor management, and external partnerships.
-- **Platform strategy and execution**: Shaped computational and data strategies for seed stage companies; directly developed platform capabilities while guiding overall bio-platform strategy.
-- **Portfolio innovation**: Served as origination leader for new AI-first ventures in partnership with Pioneering Intelligence.
-- **Mentorship and talent building**: Provided senior mentorship to computational biologists across portfolio; partnered in identification and hiring of computational heads of function for portfolio companies.
-
-
-**<span style="font-size:1em;">42 Bio LLC</span>** \hfill _Sudbury, MA_  
-Founder & Principal \hfill _March 2024 - Present_
-
- - **Strategic advisor**: Independent consultancy advising biotech/pharma on computational systems biology and ML strategy, platform development, and data governance.
-
-**<span style="font-size:1em;">Cellarity</span>** \hfill _Boston, MA_  
-Vice President, Computational and Data Sciences \hfill _July 2022 - February 2024_  
-
- - **Executive Leadership**: Member of R&D Leadership Team, reporting to the CSO.
- - **Organizational build**: Led 25-person computational org across bioinformatics, ML, and computational biology.
- - **Platform leadership**: Directed platform strategy and operations, enabling integration of Cellarity’s computational capabilities into R&D programs and investor narratives.
- - **External engagement**: Interfacing with external partners, board members, and founding VC partners on platform strategy
- 
-
-**<span style="font-size:1em;">Rheos Medicines</span>** \hfill _Boston, MA_  
-Senior Director, Computational Biology and Bioinformatics \hfill _November 2020 - July 2022_  
-
-- **Strategic leadership**: Established computational precision medicine strategy.
-- **Data strategy**: Defined and implemented Rheos’ data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs.
-- **Innovation**: Delivered proprietary patient stratification algorithms and multi-omics platform.
-- **Partnership management**: Managed CRO alliances to build company Knowledge Graph.
-- **Board engagement**: Presented strategy to board and pharma partners.
-
- 
-**<span style="font-size:1em;">Wyss Institute @ Harvard University</span>** \hfill _Boston, MA_  
-Lead, Predictive BioAnalytics Initiative, Advanced Technology Team \hfill _July 2016 - November 2020_  
-
-- **Founding leadership**: Founded and led the Predictive BioAnalytics Initiative, defining and implementing research strategy to embed ML/AI capabilities in translational science.
-- **Capital acquisition**: Raised multi-million-dollar grants with DARPA and NIH, securing external validation and resources.
-- **Team leadership**: Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns, building a high-performing computational biology group.
-- **Innovation**: Led the development and implementation of novel AI/ML tools for synthetic and systems biology.
-
-
-**<span style="font-size:1em;">Earlier Roles</span>** \hfill 
-
-- **Evelo Biosciences**: First computational hire; built data infrastructure.
-- **Ember Therapeutics**: Designed multi-omics pipelines for screening libraries.
-- **Pfizer**: Developed metabolite enrichment & network tools across preclinical portfolio.
-- **HHMI Postdoctoral Fellow** with Jim Collins (synthetic biology & ML pioneer).
-
-<!-- **<span style="font-size:1em;">Evelo Biosciences</span>** \hfill _Cambridge, MA_   -->
-<!-- Senior Scientist, Computational Systems Biology Lead \hfill _January 2015 - April 2016_   -->
-
-<!-- First employee of Evelo Biosciences. Deeply involved in the build out of the computational and data infrastructure capabilities for the organization, above and beyond the scope of my role. As the lead Computational Systems Biologist:  -->
-
-<!--  - Implemented diverse tools for analysis of high throughput data (transcriptomics, RNA-seq, metabolomics) -->
-<!--  - Implemented a 16S rDNA sequencing analysis pipeline -->
-<!--  - Development of a novel algorithm for the identification of microbiome-focused therapies through sequence-based analyses   -->
-<!--  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs -->
- 
-<!-- **<span style="font-size:1em;">Symbiota (now Indigo Ag)</span>** \hfill _Cambridge, MA_   -->
-<!-- Consultant, Computational Systems Biology Lead \hfill _December 2014 - January 2015_   -->
-
-<!-- In a short engagement with Symbiota, I developed an R Shiny application for pathway enrichment for plant transcriptomics data. -->
-
-
-<!-- **<span style="font-size:1em;">Ember Therapeutics</span>** \hfill _Cambridge, MA_   -->
-<!-- Principal Scientist, Computational Systems Biology Lead \hfill _January 2014 - December 2014_   -->
-
-<!-- Ember Therapeutics was focused on the identification of small molecules to modulate energy expenditure, which is implicated in weight loss and improved metabolic health. In my role:  -->
-
-<!--  - Responsible for the implementation of muti-omics analytical pipelines (RNA-seq, metabolomics) -->
-<!--  - Implementation of a knowledge-based and data-driven approach for construction of screening libraries for recombinant proteins, small peptides, and RNAi therapeutic efforts -->
-<!--  - Implementation of analytical strategies (QC, statistical analyses, hit-calling) for high throughput screens -->
-<!--  - Responsible for the interface with IT provider to delineate and expand computational capabilities of the company, from general to research needs -->
-
-
-<!-- **<span style="font-size:1em;">Pfizer, Inc</span>** \hfill _Cambridge, MA_   -->
-<!-- Senior Research Scientist, Computational Sciences Center of Emphasis \hfill _January 2011 - January 2014_   -->
-
-<!-- I was a member of the Computational Sciences Center of Emphasis at Pfizer, providing computational support across different preclinical programs at the organization, from cardiovascular disease to pain management and drug repositioning efforts. Some of the functions of the role included: -->
-
-<!--  - Development and implementation of a network analysis tool for the characterization of differential networks in healthy and diseased populations under the scope of metabolic diseases -->
-<!--  - Development and implementation of a methodology for metabolite set enrichment analysis for metabolomics data -->
-<!--  - Involved in the analysis of a multi-omics data set for the characterization of the mechanism of action of a lead molecule for the Metabolic Diseases Research Unit -->
-
-
-<!--  **<span style="font-size:1em;">Howard Hughes Medical Institute @ Boston University</span>** \hfill _Boston, MA_   -->
-<!-- Post-doctoral Fellow \hfill _July 2007 - January 2011_  -->
-
-<!-- Post-doctoral training with Dr. James Collins at Boston University, focusing on the application of machine learning and network inference approaches in biomedicine.  -->
-
-<!-- Some efforts included:  -->
-
-<!--  - Developed a network inference algorithm for identification of regulatory architectures of pathways -->
-<!--  - Identified a novel mechanism of action for antifungal drugs using transcriptomics and metabolomics data -->
-<!--  - Identified and characterized the small RNA regulatory network in bacterial systems using gene expression data -->
-<!--  - Performed data analysis of gene expression data and metabolomics data in bacterial and fungal systems -->
-
-# Technical Fluency
-AI | Machine learning | Deep learning | Multi-omics data analyses | R/Bioconductor | Python | AWS | Git
-
+```{r experience}
+parse_work(PROFILE) |>
+  detailed_entries(
+    what  = what,
+    when  = when,
+    with  = with,
+    where = where,
+    why   = why,
+    .protect = FALSE
+  )
+```
 
 # Education
-**<span style="font-size:1em;">Virginia Polytechnic Institute and State University</span>** \hfill _Blacksburg, VA_  
-Ph.D. in Genetics, Bioinformatics, and Computational Biology
 
-**<span style="font-size:1em;">Faculdade de Ciencias da Universidade de Lisboa</span>** \hfill _Lisboa, Portugal_  
-B. Sc. in Biochemistry
+```{r education}
+parse_education() |>
+  detailed_entries(
+    what  = what,
+    when  = when,
+    with  = with,
+    where = where,
+    .protect = FALSE
+  )
+```
 
+# Publications and Patents
 
-<!-- # Awards and Grants -->
-<!-- **<span style="font-size:1em;">Molecular circuits in the hematopoietic stem cell niche (NIH)</span>** \hfill _$415,000_   -->
-<!-- co-Investigator \hfill _9/1/20_   -->
+```{r publications, results='asis'}
+cat(parse_publications())
+```
 
-<!-- **<span style="font-size:1em;">Synergistic Discovery and Design	(DARPA)</span>** \hfill _$2,000,000_   -->
-<!-- co-PI \hfill _9/1/17_   -->
+`r parse_patents()`
 
+Full publication list available on [Google Scholar](https://scholar.google.com/citations?user=JjKJpygAAAAJ&hl=en) (6,770+ citations).
 
-# Board-Relevant Achievements
-- **Selected Publications**
-  - Valeri, JA, Soenksen, LR, Collins, KM, Ramesh, P, Cai, G, Powers, R, Angenent--Mari, NA, **Camacho, DM**, Wong, F, Lu, TK, Collins, JJ (2023), BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences, _Cell Systems_, 14, 525 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/37348466/)]
-  - Bojar, D, Powers, RK, **Camacho, DM**, Collins, JJ (2020), Deep-Learning Resources for Studying Glycan-Mediated Host-Microbe Interactions, _Cell Host & Microbe_, 29, 132-144 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33120114/)]
-  - Valeri, J, Collins, KM, Ramesh, P, Alcantar, M, Lepe, BA, Lu, TK, **Camacho, DM** (2020), Sequence-to-function deep learning frameworks for engineered riboregulators, _Nature Communications_, 11, 5058 [[\textcolor{cyan}{PubMed}](https://pubmed.ncbi.nlm.nih.gov/33028819/)]
-  - **Camacho, DM**, Collins, KM, Powers, RK, Costello, JC, Collins, JJ (2018), Next-generation machine learning for biological networks, _Cell_, 173, 1581-1592 [[\textcolor{cyan}{PubMed}](https://www.ncbi.nlm.nih.gov/pubmed/29887378)]
-  - (Full list available on [\textcolor{cyan}{Google Scholar}](https://scholar.google.com/citations?user=JjKJpygAAAAJ&hl=en))
+# Grants
 
-- **Patents (6 filed)**: Methods for detecting cellular transitions; disease detection systems; compound prediction via transcriptional signatures; contrastive computational systems; microbiome therapeutics; riboregulators for engineered biology.
-
-
-- **Grants & Capital**: Raised >$2.4M in competitive federal funding (DARPA, NIH) to support translational bioanalytics platforms.
+`r parse_grants()`

@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "lastModified": "2026-06-09",
+    "note": "Master record — never delete entries, use include:false to hide"
+  },
+  "basics": {
+    "name": "Diogo M. Camacho",
+    "email": "diogo.camacho.2008@gmail.com",
+    "phone": "+1 617 945 4383",
+    "location": "Sudbury, MA",
+    "_github_commented": "diogocamacho",
+    "linkedin": "diogocamacho",
+    "summary": "Transformative computational AI leader with 15+ years of experience building and deploying AI platforms at the intersection of biology and drug discovery, across pharma, venture-backed startups, and translational research institutes.",
+    "summary_highlights": [
+      {
+        "bold": "Enterprise AI Strategy",
+        "text": "Build and lead computational AI organizations that drive portfolio differentiation, shape corporate strategy, and create option value in novel drug discovery platforms."
+      },
+      {
+        "bold": "Organizational Builder",
+        "text": "Scaling teams from first hire to cross-disciplinary groups of 25+; deep track record in mentorship, succession planning, and recruiting computational science leaders across the industry."
+      },
+      {
+        "bold": "Platform Delivery",
+        "text": "Deliver proprietary AI platforms, patient stratification algorithms, active learning frameworks, and agentic AI systems across the full drug discovery lifecycle, from target identification through preclinical validation."
+      },
+      {
+        "bold": "Scientific Credibility",
+        "text": "Board and VC interface across multiple companies; secured DARPA and NIH funding; 20+ peer-reviewed publications (7,000+ citations) and 6 patents spanning computational biology, ML, and synthetic biology."
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "abio",
+      "include": true,
+      "company": "Abiologics",
+      "position": "Head of Computational Sciences",
+      "location": "Cambridge, MA",
+      "startDate": "2025-01",
+      "endDate": null,
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Platform strategy",
+          "text": "Scaling and leading the computational sciences function for a D-amino acid therapeutic platform through AI-first design: computational and AI strategy, operations, and execution."
+        },
+        {
+          "include": true,
+          "bold": "Active learning",
+          "text": "Established active learning as the core experimental design paradigm for therapeutic mini-binder optimization, enabling data-driven prioritization across the DBT cycle."
+        },
+        {
+          "include": true,
+          "bold": "Agentic AI",
+          "text": "Architected and deployed agentic AI systems for target identification, target prioritization, and competitive intelligence, reducing manual analysis burden and accelerating program decisions."
+        },
+        {
+          "include": true,
+          "bold": "Organizational leadership",
+          "text": "Own all aspects of team growth and function: hiring, performance management, budgeting, and executive-level search."
+        }
+      ]
+    },
+    {
+      "id": "fsp",
+      "include": true,
+      "company": "Flagship Pioneering",
+      "position": "Senior Principal, Computation",
+      "location": "Cambridge, MA",
+      "startDate": "2024-10",
+      "endDate": null,
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Company origination",
+          "text": "AI leader on founding team of FL111, leading the computational efforts from exploration to seed stage funding; Advisory roles on FL106, FL108, FL115, from exploration to seed stage. "
+        },
+        {
+          "include": true,
+          "bold": "Venture platform strategy",
+          "text": "Computational and data strategy for multiple seed-stage ventures (FL110, FL111, FL121), directly developing platform capabilities and setting the technical direction for early-stage programs."
+        },
+        {
+          "include": true,
+          "bold": "Agentic AI systems",
+          "text": "Pioneering agentic AI approaches for drug discovery and direct-to-consumer health applications across the Flagship portfolio."
+        },
+        {
+          "include": true,
+          "bold": "Talent and leadership",
+          "text": "Recruiting, training, mentoring, and retaining computational science leaders across multiple portfolio companies (Ampersand, FL121, FL122, FL110, FL115)."
+        }
+      ]
+    },
+    {
+      "id": "42bio",
+      "include": false,
+      "company": "42 Bio LLC",
+      "position": "Founder & Principal",
+      "location": "Sudbury, MA",
+      "startDate": "2024-03",
+      "endDate": null,
+      "summary_only": true,
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Strategic advisor",
+          "text": "Independent consultancy advising biotech and pharma on computational biology strategy, AI platform development, and data governance."
+        }
+      ]
+    },
+    {
+      "id": "cellarity",
+      "include": true,
+      "company": "Cellarity",
+      "position": "Vice President, Computational and Data Sciences",
+      "location": "Boston, MA",
+      "startDate": "2022-07",
+      "endDate": "2024-02",
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Executive leadership",
+          "text": "Member of R&D Leadership Team reporting to the CSO; shaped corporate strategy at the intersection of computational platform and therapeutic portfolio direction."
+        },
+        {
+          "include": true,
+          "bold": "Organizational build",
+          "text": "Scaled and led a 25-person computational organization across bioinformatics, ML, and computational biology, with teams in Boston and Germany."
+        },
+        {
+          "include": true,
+          "bold": "Platform strategy",
+          "text": "Directed end-to-end platform strategy and operations, integrating Cellarity's computational capabilities into R&D programs and investor narratives that shaped fundraising outcomes."
+        },
+        {
+          "include": true,
+          "bold": "External engagement",
+          "text": "Primary computational interface with board members, founding VC partners, and external collaborators on platform differentiation and roadmap."
+        }
+      ]
+    },
+    {
+      "id": "rheos",
+      "include": true,
+      "company": "Rheos Medicines",
+      "position": "Senior Director, Computational Biology and Bioinformatics",
+      "location": "Boston, MA",
+      "startDate": "2020-11",
+      "endDate": "2022-07",
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Precision medicine strategy",
+          "text": "Established the computational precision medicine strategy for immunometabolism drug discovery, defining how patient stratification and multi-omics data would inform program decisions."
+        },
+        {
+          "include": true,
+          "bold": "AI and data strategy",
+          "text": "Defined and implemented Rheos' full AI and data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs."
+        },
+        {
+          "include": true,
+          "bold": "Platform delivery",
+          "text": "Delivered proprietary patient stratification algorithms and multi-omics platform adopted across the pipeline."
+        },
+        {
+          "include": true,
+          "bold": "Board engagement",
+          "text": "Presented computational strategy to board and pharma partners, directly supporting business development and partnership decisions."
+        }
+      ]
+    },
+    {
+      "id": "wyss",
+      "include": true,
+      "company": "Wyss Institute @ Harvard University",
+      "position": "Lead, Predictive BioAnalytics",
+      "location": "Boston, MA",
+      "startDate": "2016-07",
+      "endDate": "2020-11",
+      "highlights": [
+        {
+          "include": true,
+          "bold": "Founding leadership",
+          "text": "Founded and led the Predictive BioAnalytics Initiative — a first-of-kind ML/AI function embedded in translational science — defining research strategy, securing funding, and building the team from scratch."
+        },
+        {
+          "include": true,
+          "bold": "Capital acquisition",
+          "text": "Raised >$2.4M in competitive federal grants through DARPA and NIH, positioning the initiative as an externally validated platform for AI-driven translational discovery."
+        },
+        {
+          "include": true,
+          "bold": "Infectious disease research",
+          "text": "Co-led computational contributions to host immune tolerance research, using computational transcriptomics to identify infection response pathways validated experimentally — published in Advanced Science."
+        },
+        {
+          "include": true,
+          "bold": "Team leadership",
+          "text": "Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns across synthetic biology, systems biology, and ML."
+        }
+      ]
+    },
+    {
+      "id": "evelo",
+      "include": true,
+      "company": "Evelo Biosciences",
+      "position": "Senior Scientist, Computational Systems Biology Lead",
+      "location": "Cambridge, MA",
+      "startDate": "2015-01",
+      "endDate": "2016-04",
+      "summary_only": true,
+      "highlights": []
+    },
+    {
+      "id": "ember",
+      "include": true,
+      "company": "Ember Therapeutics",
+      "position": "Principal Scientist, Computational Systems Biology Lead",
+      "location": "Cambridge, MA",
+      "startDate": "2014-01",
+      "endDate": "2014-12",
+      "summary_only": true,
+      "highlights": []
+    },
+    {
+      "id": "pfizer",
+      "include": true,
+      "company": "Pfizer, Inc.",
+      "position": "Senior Research Scientist, Computational Sciences Center of Emphasis",
+      "location": "Cambridge, MA",
+      "startDate": "2011-01",
+      "endDate": "2014-01",
+      "summary_only": true,
+      "highlights": []
+    },
+    {
+      "id": "hhmi",
+      "include": true,
+      "company": "Howard Hughes Medical Institute @ Boston University",
+      "position": "Postdoctoral Fellow (Jim Collins Lab)",
+      "location": "Boston, MA",
+      "startDate": "2007-07",
+      "endDate": "2011-01",
+      "summary_only": true,
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "include": true,
+      "institution": "Virginia Polytechnic Institute and State University",
+      "location": "Blacksburg, VA",
+      "degree": "Ph.D.",
+      "field": "Genetics, Bioinformatics, and Computational Biology"
+    },
+    {
+      "include": true,
+      "institution": "Faculdade de Ciencias da Universidade de Lisboa",
+      "location": "Lisboa, Portugal",
+      "degree": "B.Sc.",
+      "field": "Biochemistry"
+    }
+  ],
+  "skills": {
+    "include": false,
+    "note": "Removed per executive CV guidance — technical fluency implied at this level",
+    "keywords": [
+      "AI", "Machine learning", "Deep learning",
+      "Multi-omics data analyses", "R/Bioconductor",
+      "Python", "Agentic AI", "AWS", "Git"
+    ]
+  },
+  "publications": {
+    "include": true,
+    "selected": [
+      {
+        "authors": "Marbach D, Costello JC, Kuffner R, Vega NM, Prill RJ, Camacho DM, Allison KR, Kellis M, Collins JJ, Stolovitzky G",
+        "year": 2012,
+        "title": "Wisdom of crowds for robust gene network inference",
+        "journal": "Nature Methods",
+        "volume": "9",
+        "pages": "796-804"
+      },
+      {
+        "authors": "Camacho DM, Collins KM, Powers RK, Costello JC, Collins JJ",
+        "year": 2018,
+        "title": "Next-generation machine learning for biological networks",
+        "journal": "Cell",
+        "volume": "173",
+        "pages": "1581-1592"
+      },
+      {
+        "authors": "Valeri J, Collins KM, Ramesh P, Alcantar M, Lepe BA, Lu TK, Camacho DM",
+        "year": 2020,
+        "title": "Sequence-to-function deep learning frameworks for engineered riboregulators",
+        "journal": "Nature Communications",
+        "volume": "11",
+        "pages": "5058"
+      },
+      {
+        "authors": "Bojar D, Powers RK, Camacho DM, Collins JJ",
+        "year": 2020,
+        "title": "Deep-learning resources for studying glycan-mediated host-microbe interactions",
+        "journal": "Cell Host & Microbe",
+        "volume": "29",
+        "pages": "132-144"
+      },
+      {
+        "authors": "Gazzaniga FS, Camacho DM, Wu M, Palazzo MFS, Dinis ALM, Grafton FN, Cartwright MJ, Super M, Kasper DL, Ingber DE",
+        "year": 2021,
+        "title": "Harnessing colon chip technology to identify commensal bacteria that promote host tolerance to infection",
+        "journal": "Frontiers in Cellular and Infection Microbiology",
+        "volume": "11",
+        "pages": "638014"
+      },
+      {
+        "authors": "Sperry MM, Novak R, Keshari V, Dinis ALM, Cartwright MJ, Camacho DM, Pare JF, Super M, Levin M, Ingber DE",
+        "year": 2022,
+        "title": "Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches",
+        "journal": "Advanced Science",
+        "volume": "9",
+        "pages": "2200222"
+      },
+      {
+        "authors": "Valeri JA, Soenksen LR, Collins KM, Ramesh P, Cai G, Powers R, Camacho DM, et al.",
+        "year": 2023,
+        "title": "BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences",
+        "journal": "Cell Systems",
+        "volume": "14",
+        "pages": "525"
+      },
+      {
+        "authors": "Camacho D, de la Fuente A, Mendes P",
+        "year": 2005,
+        "title": "The origin of correlations in metabolomics data",
+        "journal": "Metabolomics",
+        "volume": "1",
+        "pages": "53-63"
+      }
+    ],
+    "footer": "Full publication list available on Google Scholar (6,770+ citations)"
+  },
+  "patents": {
+    "include": true,
+    "count": 6,
+    "description": "Patents spanning drug discovery, ML methods, and synthetic biology."
+  },
+  "grants": {
+    "include": true,
+    "total": ">$2.4M",
+    "sources": ["DARPA", "NIH"],
+    "description": "Competitive federal funding to support translational bioanalytics platforms."
+  },
+  "profiles": {
+    "executive": {
+      "description": "Full executive CV — all roles, selected publications, patents, grants",
+      "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
+      "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
+      "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"]
+    },
+    "az_cvrm": {
+      "description": "Tailored for AstraZeneca ED Data & AI Early CVRM role",
+      "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
+      "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
+      "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"],
+      "notes": "Emphasize CVRM thread: Metabolomics 2005 first paper, Pfizer CVMED, Rheos immunometabolism, multi-omics. Lead with biochemistry-to-metabolism arc."
+    },
+    "az_infectious_disease": {
+      "description": "Tailored for AstraZeneca ED Computational Discovery & Translation Early Infectious Diseases role",
+      "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
+      "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
+      "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"],
+      "notes": "Lead with Wyss infectious disease work — host tolerance paper, DARPA funding, closed-loop computational-experimental approach. Agentic AI at Abio is directly relevant to closed-loop platform mandate."
+    }
+  }
+}
