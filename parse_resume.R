@@ -38,10 +38,93 @@ parse_summary_highlights <- function() {
   }, character(1)), collapse = "\n")
 }
 
-# ── Work experience ───────────────────────────────────────────
-# Returns a tibble ready for vitae::detailed_entries()
-# profile: character — key from resume$profiles (e.g. "executive", "az_cvrm")
-#          if NULL, returns all included entries
+# ── Work experience: raw LaTeX emitter ────────────────────────
+# emit_work_latex(profile) returns a complete LaTeX block for the
+# Professional Experience section, including the cventries wrapper.
+# Used via a results='asis' chunk because vitae::detailed_entries cannot
+# express nested (parent → embedded) entries.
+
+format_dates <- function(job) {
+  start <- format(as.Date(paste0(job$startDate, "-01")), "%b %Y")
+  end   <- if (is.null(job$endDate)) "Present" else
+             format(as.Date(paste0(job$endDate, "-01")), "%b %Y")
+  paste(start, "-", end)
+}
+
+format_bullet_tex <- function(h) {
+  if (!is.null(h$bold) && nchar(h$bold) > 0)
+    sprintf("\\item \\textbf{%s}: %s", latex_escape(h$bold), latex_escape(h$text))
+  else
+    sprintf("\\item %s", latex_escape(h$text))
+}
+
+format_cvitems <- function(highlights) {
+  active <- keep(highlights, ~ isTRUE(.x$include))
+  if (length(active) == 0) return("")
+  paste0(
+    "\\begin{cvitems}\n",
+    paste(map_chr(active, format_bullet_tex), collapse = "\n"), "\n",
+    "\\end{cvitems}"
+  )
+}
+
+format_cventry <- function(job, is_collapsed) {
+  description <- if (is_collapsed) "" else format_cvitems(job$highlights)
+  sprintf("\\cventry{%s}{%s}{%s}{%s}{%s}",
+          latex_escape(job$position),
+          latex_escape(job$company),
+          latex_escape(job$location),
+          format_dates(job),
+          description)
+}
+
+# Embedded entries render as a regular \cventry with the descriptor
+# inlined on the company line, e.g. "Abiologics (Flagship Pioneering portfolio company)".
+# (\cvsubentry breaks when its description contains an itemize/cvitems block.)
+format_subentry <- function(sub) {
+  company <- latex_escape(sub$company)
+  if (!is.null(sub$descriptor) && nzchar(sub$descriptor)) {
+    company <- sprintf("%s \\textit{(%s)}",
+                       company, latex_escape(sub$descriptor))
+  }
+  sprintf("\\cventry{%s}{%s}{%s}{%s}{%s}",
+          latex_escape(sub$position),
+          company,
+          latex_escape(sub$location),
+          format_dates(sub),
+          format_cvitems(sub$highlights))
+}
+
+emit_work_latex <- function(profile = NULL) {
+  work <- resume$work
+
+  if (!is.null(profile) && !is.null(resume$profiles[[profile]])) {
+    allowed_ids <- resume$profiles[[profile]]$work_filter
+    work <- keep(work, ~ .x$id %in% allowed_ids)
+  }
+  work <- keep(work, ~ isTRUE(.x$include))
+
+  collapsed_ids <- character(0)
+  if (!is.null(profile) && !is.null(resume$profiles[[profile]]$earlier_roles_collapsed)) {
+    collapsed_ids <- resume$profiles[[profile]]$earlier_roles_collapsed
+  }
+
+  parts <- c("\\begin{cventries}")
+  for (job in work) {
+    parts <- c(parts, format_cventry(job, job$id %in% collapsed_ids))
+    if (!is.null(job$embedded) && length(job$embedded) > 0) {
+      for (sub in job$embedded) {
+        if (isTRUE(sub$include)) {
+          parts <- c(parts, format_subentry(sub))
+        }
+      }
+    }
+  }
+  parts <- c(parts, "\\end{cventries}")
+  paste(parts, collapse = "\n")
+}
+
+# ── Work experience: legacy tibble (kept for any other consumers) ──
 parse_work <- function(profile = NULL) {
 
   work <- resume$work
@@ -75,12 +158,16 @@ parse_work <- function(profile = NULL) {
         latex_escape(h$text)
     }
 
+    # job$context is intentionally unused. Field is preserved in the JSON
+    # in case we want to render it differently in a future template.
+    position_text <- latex_escape(job$position)
+
     # Collapsed (earlier roles) — one-line bullet per role
     if (job$id %in% collapsed_ids) {
       active_bullets <- keep(job$highlights, ~ isTRUE(.x$include))
       bullet_text <- if (length(active_bullets) == 0) NA_character_ else map_chr(active_bullets, format_bullet)
       return(tibble(
-        what  = latex_escape(job$position),
+        what  = position_text,
         when  = dates,
         with  = latex_escape(job$company),
         where = latex_escape(job$location),
@@ -93,7 +180,7 @@ parse_work <- function(profile = NULL) {
 
     if (length(active_bullets) == 0) {
       return(tibble(
-        what  = latex_escape(job$position),
+        what  = position_text,
         when  = dates,
         with  = latex_escape(job$company),
         where = latex_escape(job$location),
@@ -104,7 +191,7 @@ parse_work <- function(profile = NULL) {
     bullet_text <- map_chr(active_bullets, format_bullet)
 
     tibble(
-      what  = latex_escape(job$position),
+      what  = position_text,
       when  = dates,
       with  = latex_escape(job$company),
       where = latex_escape(job$location),

@@ -11,6 +11,10 @@ linkcolor: blue
 output:
   vitae::awesomecv:
     keep_tex: true
+header-includes:
+  - \usepackage{etoolbox}
+  - \pretocmd{\cventry}{\vspace{2mm}}{}{}
+  - \AtEndEnvironment{cvitems}{\vspace{6mm}}
 ---
 
 ```{r setup, include=FALSE}
@@ -35,16 +39,8 @@ cat(parse_summary_highlights())
 
 # Professional Experience
 
-```{r experience}
-parse_work(PROFILE) |>
-  detailed_entries(
-    what  = what,
-    when  = when,
-    with  = with,
-    where = where,
-    why   = why,
-    .protect = FALSE
-  )
+```{r experience, results='asis'}
+cat(emit_work_latex(PROFILE))
 ```
 
 # Education

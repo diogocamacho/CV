@@ -15,67 +15,38 @@
     "summary_highlights": [
       {
         "bold": "Enterprise AI Strategy",
-        "text": "Build and lead computational AI organizations that drive portfolio differentiation, shape corporate strategy, and create option value in novel drug discovery platforms."
+        "text": "Build and lead computational AI organizations that drive portfolio differentiation, shape corporate strategy, and create option value in novel drug discovery platforms; Leading AI transformations to accelerate drug discovery."
       },
-      {
-        "bold": "Organizational Builder",
-        "text": "Scaling teams from first hire to cross-disciplinary groups of 25+; deep track record in mentorship, succession planning, and recruiting computational science leaders across the industry."
-      },
-      {
-        "bold": "Platform Delivery",
+	  {
+        "bold": "Technical Innovation",
         "text": "Deliver proprietary AI platforms, patient stratification algorithms, active learning frameworks, and agentic AI systems across the full drug discovery lifecycle, from target identification through preclinical validation."
       },
       {
-        "bold": "Scientific Credibility",
+        "bold": "Team Building & Fundraising",
+        "text": "Scaling teams from first hire to cross-disciplinary groups of 25+; deep track record in mentorship, succession planning, and recruiting computational science leaders across the industry; organizin data rooms for venture funding."
+      },
+      {
+        "bold": "Executive Presence & Credibility",
         "text": "Board and VC interface across multiple companies; secured DARPA and NIH funding; 20+ peer-reviewed publications (7,000+ citations) and 6 patents spanning computational biology, ML, and synthetic biology."
       }
     ]
   },
   "work": [
     {
-      "id": "abio",
-      "include": true,
-      "company": "Abiologics",
-      "position": "Head of Computational Sciences",
-      "location": "Cambridge, MA",
-      "startDate": "2025-01",
-      "endDate": null,
-      "highlights": [
-        {
-          "include": true,
-          "bold": "Platform strategy",
-          "text": "Scaling and leading the computational sciences function for a D-amino acid therapeutic platform through AI-first design: computational and AI strategy, operations, and execution."
-        },
-        {
-          "include": true,
-          "bold": "Active learning",
-          "text": "Established active learning as the core experimental design paradigm for therapeutic mini-binder optimization, enabling data-driven prioritization across the DBT cycle."
-        },
-        {
-          "include": true,
-          "bold": "Agentic AI",
-          "text": "Architected and deployed agentic AI systems for target identification, target prioritization, and competitive intelligence, reducing manual analysis burden and accelerating program decisions."
-        },
-        {
-          "include": true,
-          "bold": "Organizational leadership",
-          "text": "Own all aspects of team growth and function: hiring, performance management, budgeting, and executive-level search."
-        }
-      ]
-    },
-    {
       "id": "fsp",
       "include": true,
       "company": "Flagship Pioneering",
       "position": "Senior Principal, Computation",
+      "context": "Computational and AI strategy across Pioneering Business Units; embedded in explorations, ProtoCos, and NewCos to establish novel bioplatforms.",
       "location": "Cambridge, MA",
       "startDate": "2024-10",
       "endDate": null,
+      "render_hint": "parent_with_embedded",
       "highlights": [
         {
           "include": true,
           "bold": "Company origination",
-          "text": "AI leader on founding team of FL111, leading the computational efforts from exploration to seed stage funding; Advisory roles on FL106, FL108, FL115, from exploration to seed stage. "
+          "text": "AI leader on founding team of FL111, leading the computational efforts from exploration to seed stage funding; Advisory roles on FL106, FL108, FL115, from exploration to seed stage."
         },
         {
           "include": true,
@@ -91,6 +62,42 @@
           "include": true,
           "bold": "Talent and leadership",
           "text": "Recruiting, training, mentoring, and retaining computational science leaders across multiple portfolio companies (Ampersand, FL121, FL122, FL110, FL115)."
+        }
+      ],
+      "embedded": [
+        {
+          "id": "abio",
+          "include": true,
+          "company": "Abiologics",
+          "descriptor": "Flagship Pioneering portfolio company",
+          "position": "Head of Computational Sciences",
+          "context": "AI-driven D-amino acid mini-binder design platform; agentic AI for target identification and prioritization; led AI transformation for scientific and operational excellence.",
+          "location": "Cambridge, MA",
+          "startDate": "2025-01",
+          "endDate": null,
+          "render_hint": "embedded_under_parent",
+          "highlights": [
+            {
+              "include": true,
+              "bold": "Platform strategy",
+              "text": "Scaling and leading the computational sciences function for a D-amino acid therapeutic platform through AI-first design: computational and AI strategy, operations, and execution."
+            },
+            {
+              "include": true,
+              "bold": "Active learning",
+              "text": "Established active learning as the core experimental design paradigm for therapeutic mini-binder optimization, enabling data-driven prioritization across the DBT cycle."
+            },
+            {
+              "include": true,
+              "bold": "Agentic AI",
+              "text": "Architected and deployed agentic AI systems for target identification, target prioritization, and competitive intelligence, reducing manual analysis burden and accelerating program decisions."
+            },
+            {
+              "include": true,
+              "bold": "Organizational leadership",
+              "text": "Own all aspects of team growth and function: hiring, performance management, budgeting, and executive-level search."
+            }
+          ]
         }
       ]
     },
@@ -116,6 +123,7 @@
       "include": true,
       "company": "Cellarity",
       "position": "Vice President, Computational and Data Sciences",
+      "context": "Transformed the computational platform for cell-behavior medicine discovery; advanced AI/ML models for small-molecule identification supporting pharma partnerships.",
       "location": "Boston, MA",
       "startDate": "2022-07",
       "endDate": "2024-02",
@@ -147,6 +155,7 @@
       "include": true,
       "company": "Rheos Medicines",
       "position": "Senior Director, Computational Biology and Bioinformatics",
+      "context": "Built the MetPM computational platform and the MetKG proprietary knowledge graph; contributed to the Series B investor narrative.",
       "location": "Boston, MA",
       "startDate": "2020-11",
       "endDate": "2022-07",
@@ -178,6 +187,7 @@
       "include": true,
       "company": "Wyss Institute @ Harvard University",
       "position": "Lead, Predictive BioAnalytics",
+      "context": "Founded a new Wyss group bringing AI/ML capabilities to drug discovery, synthetic biology, and systems biology; Co-PI on key federal grants.",
       "location": "Boston, MA",
       "startDate": "2016-07",
       "endDate": "2020-11",
