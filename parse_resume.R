@@ -238,7 +238,7 @@ parse_skills <- function() {
 # ── Patents & Grants (plain text) ─────────────────────────────
 parse_patents <- function() resume$patents$description
 parse_grants  <- function() {
-  paste0("Raised ", resume$grants$total, " in competitive federal funding (",
-         paste(resume$grants$sources, collapse = ", "), ") — ",
+  paste0("Raised ", resume$grants$total, " in competitive ",
+         paste(resume$grants$sources, collapse = " and "), " funding ",
          resume$grants$description)
 }

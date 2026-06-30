@@ -64,7 +64,7 @@ cat(parse_publications())
 
 `r parse_patents()`
 
-Full publication list available on [Google Scholar](https://scholar.google.com/citations?user=JjKJpygAAAAJ&hl=en) (6,770+ citations).
+Full publication list available on [Google Scholar](https://scholar.google.com/citations?user=JjKJpygAAAAJ&hl=en) (7,000+ citations).
 
 # Grants
 

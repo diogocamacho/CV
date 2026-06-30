@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  11 JUN 2026 15:59
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  30 JUN 2026 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/dcamacho/work/admin/CV/DMC.tex
-(/Users/dcamacho/work/admin/CV/DMC.tex
+**/Users/dcamacho/work/admin/personal/CV/DMC.tex
+(/Users/dcamacho/work/admin/personal/CV/DMC.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (./awesome-cv.cls
@@ -1143,42 +1143,35 @@ LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 110.
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 120.
-
-Overfull \hbox (5.222pt too wide) in paragraph at lines 125--130
-[]\TU/SourceSans3(0)/b/n/10.95 Technical Innovation\TU/SourceSans3(0)/m/n/10.95
- : Deliver proprietary AI platforms, patient stratification algorithms, active 
-learning frame-
- []
-
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 149.
+(Font)              scaled to size 12.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 149.
+(Font)              scaled to size 12.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(3)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(3)/m/sl' in size <10> not availa
 ble
 (Font)              Font shape `TU/SourceSans3(3)/m/it' tried instead on input 
-line 149.
+line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(3)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(3)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 149.
+(Font)              scaled to size 10.0pt on input line 150.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 155.
+(Font)              scaled to size 12.0pt on input line 156.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 178.
+(Font)              scaled to size 8.0pt on input line 179.
 LaTeX Font Info:    Font shape `TU/SourceSans3(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 178.
+(Font)              scaled to size 8.0pt on input line 179.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 194.
+(Font)              scaled to size 10.95pt on input line 195.
 [2] [3] (./DMC.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1189,11 +1182,11 @@ Package rerunfilecheck Info: File `DMC.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  32756 strings out of 468168
- 668919 string characters out of 5432815
- 1255912 words of memory out of 5000000
+ 668946 string characters out of 5432815
+ 1253912 words of memory out of 5000000
  60946 multiletter control sequences out of 15000+600000
  631710 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,136p,571b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,136p,580b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DMC.pdf (3 pages).

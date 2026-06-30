@@ -11,23 +11,23 @@
     "location": "Sudbury, MA",
     "_github_commented": "diogocamacho",
     "linkedin": "diogocamacho",
-    "summary": "Transformative computational AI leader with 15+ years of experience building and deploying AI platforms at the intersection of biology and drug discovery, across pharma, venture-backed startups, and translational research institutes.",
+    "summary": "Scientific leader and builder at the frontier of AI and biology. Pi-shaped (deep in computational biology and ML, broad across the rest), with 15+ years leading computational teams across pharma, venture-backed biotech, and translational research.",
     "summary_highlights": [
       {
-        "bold": "Enterprise AI Strategy",
-        "text": "Build and lead computational AI organizations that drive portfolio differentiation, shape corporate strategy, and create option value in novel drug discovery platforms; Leading AI transformations to accelerate drug discovery."
-      },
-	  {
-        "bold": "Technical Innovation",
-        "text": "Deliver proprietary AI platforms, patient stratification algorithms, active learning frameworks, and agentic AI systems across the full drug discovery lifecycle, from target identification through preclinical validation."
+        "bold": "Leadership through ambiguity",
+        "text": "Built and scaled computational organizations across three evolving ventures (Rheos, Cellarity, Abiologics), each from an undefined early mandate to a functioning platform team. Comfortable owning technical direction before the path is clear."
       },
       {
-        "bold": "Team Building & Fundraising",
-        "text": "Scaling teams from first hire to cross-disciplinary groups of 25+; deep track record in mentorship, succession planning, and recruiting computational science leaders across the industry; organizin data rooms for venture funding."
+        "bold": "Technical innovation",
+        "text": "Shipped AI platforms across the discovery lifecycle: patient-stratification algorithms, active-learning frameworks, and agentic systems spanning target ID through preclinical validation."
       },
       {
-        "bold": "Executive Presence & Credibility",
-        "text": "Board and VC interface across multiple companies; secured DARPA and NIH funding; 20+ peer-reviewed publications (7,000+ citations) and 6 patents spanning computational biology, ML, and synthetic biology."
+        "bold": "Building and judging talent",
+        "text": "Recruit and develop computational leaders: hiring, mentorship, succession planning, and the executive searches that fill senior gaps. Scaled from first hire to a 25-person group at Cellarity."
+      },
+      {
+        "bold": "Executive credibility",
+        "text": "Board and VC interface across multiple companies. Secured >$2.4M in competitive DARPA and NIH funding; 6 patents and 20+ publications (7,000+ citations) across computational biology, ML, and synthetic biology."
       }
     ]
   },
@@ -46,22 +46,22 @@
         {
           "include": true,
           "bold": "Company origination",
-          "text": "AI leader on founding team of FL111, leading the computational efforts from exploration to seed stage funding; Advisory roles on FL106, FL108, FL115, from exploration to seed stage."
+          "text": "AI lead on the founding team of FL111, owning computational efforts from exploration through seed funding. Advisory roles on FL106, FL108, and FL115 across the same stages."
         },
         {
           "include": true,
           "bold": "Venture platform strategy",
-          "text": "Computational and data strategy for multiple seed-stage ventures (FL110, FL111, FL121), directly developing platform capabilities and setting the technical direction for early-stage programs."
+          "text": "Computational and data strategy for multiple seed-stage ventures (FL110, FL111, FL121). Built their platform capabilities and set the technical direction for early programs."
         },
         {
           "include": true,
           "bold": "Agentic AI systems",
-          "text": "Pioneering agentic AI approaches for drug discovery and direct-to-consumer health applications across the Flagship portfolio."
+          "text": "Built agentic AI systems for drug discovery and direct-to-consumer health applications across the Flagship portfolio."
         },
         {
           "include": true,
           "bold": "Talent and leadership",
-          "text": "Recruiting, training, mentoring, and retaining computational science leaders across multiple portfolio companies (Ampersand, FL121, FL122, FL110, FL115)."
+          "text": "Recruited and retained computational science leaders across five portfolio companies (Ampersand, FL121, FL122, FL110, FL115)."
         }
       ],
       "embedded": [
@@ -80,22 +80,22 @@
             {
               "include": true,
               "bold": "Platform strategy",
-              "text": "Scaling and leading the computational sciences function for a D-amino acid therapeutic platform through AI-first design: computational and AI strategy, operations, and execution."
+              "text": "Lead the computational sciences function for a D-amino acid therapeutic platform: AI-first design strategy, operations, and execution."
             },
             {
               "include": true,
               "bold": "Active learning",
-              "text": "Established active learning as the core experimental design paradigm for therapeutic mini-binder optimization, enabling data-driven prioritization across the DBT cycle."
+              "text": "Made active learning the core experimental-design approach for mini-binder optimization, so candidate prioritization across the DBT cycle runs on data, not intuition."
             },
             {
               "include": true,
               "bold": "Agentic AI",
-              "text": "Architected and deployed agentic AI systems for target identification, target prioritization, and competitive intelligence, reducing manual analysis burden and accelerating program decisions."
+              "text": "Built and deployed agentic AI systems for target identification, prioritization, and competitive intelligence."
             },
             {
               "include": true,
               "bold": "Organizational leadership",
-              "text": "Own all aspects of team growth and function: hiring, performance management, budgeting, and executive-level search."
+              "text": "Own team growth and function end to end: hiring, performance management, budgeting, and executive search."
             }
           ]
         }
@@ -131,7 +131,7 @@
         {
           "include": true,
           "bold": "Executive leadership",
-          "text": "Member of R&D Leadership Team reporting to the CSO; shaped corporate strategy at the intersection of computational platform and therapeutic portfolio direction."
+          "text": "On the R&D Leadership Team, reporting to the CSO. Shaped corporate strategy where the computational platform met therapeutic portfolio direction."
         },
         {
           "include": true,
@@ -141,12 +141,12 @@
         {
           "include": true,
           "bold": "Platform strategy",
-          "text": "Directed end-to-end platform strategy and operations, integrating Cellarity's computational capabilities into R&D programs and investor narratives that shaped fundraising outcomes."
+          "text": "Directed platform strategy and operations end to end. Put Cellarity's computational capabilities into R&D programs and into the investor narrative for fundraising."
         },
         {
           "include": true,
           "bold": "External engagement",
-          "text": "Primary computational interface with board members, founding VC partners, and external collaborators on platform differentiation and roadmap."
+          "text": "Primary computational interface for the board, founding VC partners, and external collaborators on platform differentiation and roadmap."
         }
       ]
     },
@@ -163,22 +163,22 @@
         {
           "include": true,
           "bold": "Precision medicine strategy",
-          "text": "Established the computational precision medicine strategy for immunometabolism drug discovery, defining how patient stratification and multi-omics data would inform program decisions."
+          "text": "Set the computational precision-medicine strategy for immunometabolism drug discovery: how patient stratification and multi-omics data would drive program decisions."
         },
         {
           "include": true,
           "bold": "AI and data strategy",
-          "text": "Defined and implemented Rheos' full AI and data strategy in partnership with Research Informatics, ensuring integration across discovery and translational programs."
+          "text": "Defined and implemented Rheos' AI and data strategy with Research Informatics, across discovery and translational programs."
         },
         {
           "include": true,
           "bold": "Platform delivery",
-          "text": "Delivered proprietary patient stratification algorithms and multi-omics platform adopted across the pipeline."
+          "text": "Built the MetPM platform and MetKG knowledge graph: patient-stratification algorithms and multi-omics tooling adopted across the pipeline."
         },
         {
           "include": true,
           "bold": "Board engagement",
-          "text": "Presented computational strategy to board and pharma partners, directly supporting business development and partnership decisions."
+          "text": "Presented computational strategy to the board and pharma partners; contributed to the Series B investor narrative."
         }
       ]
     },
@@ -195,22 +195,22 @@
         {
           "include": true,
           "bold": "Founding leadership",
-          "text": "Founded and led the Predictive BioAnalytics Initiative — a first-of-kind ML/AI function embedded in translational science — defining research strategy, securing funding, and building the team from scratch."
+          "text": "Founded and led the Predictive BioAnalytics Initiative, a new ML/AI function embedded in translational science. Set the research strategy, secured the funding, and built the team from scratch."
         },
         {
           "include": true,
           "bold": "Capital acquisition",
-          "text": "Raised >$2.4M in competitive federal grants through DARPA and NIH, positioning the initiative as an externally validated platform for AI-driven translational discovery."
+          "text": "Raised >$2.4M in competitive DARPA and NIH grants as Co-PI."
         },
         {
           "include": true,
           "bold": "Infectious disease research",
-          "text": "Co-led computational contributions to host immune tolerance research, using computational transcriptomics to identify infection response pathways validated experimentally — published in Advanced Science."
+          "text": "Co-led the computational side of host immune-tolerance research: transcriptomics that identified infection-response pathways, later validated experimentally and published in Advanced Science."
         },
         {
           "include": true,
           "bold": "Team leadership",
-          "text": "Directed and mentored interdisciplinary teams of staff scientists, postdocs, graduate students, and interns across synthetic biology, systems biology, and ML."
+          "text": "Directed and mentored interdisciplinary teams (staff scientists, postdocs, graduate students, interns) across synthetic biology, systems biology, and ML."
         }
       ]
     },
@@ -352,7 +352,7 @@
         "pages": "53-63"
       }
     ],
-    "footer": "Full publication list available on Google Scholar (6,770+ citations)"
+    "footer": "Full publication list available on Google Scholar (7,000+ citations)"
   },
   "patents": {
     "include": true,
@@ -363,7 +363,7 @@
     "include": true,
     "total": ">$2.4M",
     "sources": ["DARPA", "NIH"],
-    "description": "Competitive federal funding to support translational bioanalytics platforms."
+    "description": "to support translational bioanalytics platforms at the Wyss Institute."
   },
   "profiles": {
     "executive": {
