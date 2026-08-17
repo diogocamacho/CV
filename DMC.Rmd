@@ -25,16 +25,15 @@ library(dplyr)
 
 source("parse_resume.R")
 
-# AZ-specific profile
-PROFILE <- "az_cvrm"
+PROFILE <- "default"
 ```
 
 # Executive Profile
 
-`r parse_summary()`
+`r parse_summary(PROFILE)`
 
 ```{r summary_highlights, results='asis'}
-cat(parse_summary_highlights())
+cat(parse_summary_highlights(PROFILE))
 ```
 
 # Professional Experience
@@ -59,7 +58,7 @@ parse_education() |>
 # Publications and Patents
 
 ```{r publications, results='asis'}
-cat(parse_publications())
+cat(parse_publications(PROFILE))
 ```
 
 `r parse_patents()`

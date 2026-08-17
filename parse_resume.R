@@ -26,12 +26,22 @@ latex_escape <- function(s) {
 # ── Basics ────────────────────────────────────────────────────
 basics <- resume$basics
 
-parse_summary <- function() resume$basics$summary
+# parse_summary(profile): returns the profile-specific summary if one exists,
+# otherwise falls back to basics$summary.
+parse_summary <- function(profile = NULL) {
+  if (!is.null(profile) && !is.null(resume$profiles[[profile]]$summary))
+    return(resume$profiles[[profile]]$summary)
+  resume$basics$summary
+}
 
 # Returns one markdown bullet per summary_highlight, joined by newlines.
+# Uses profile-level summary_highlights if present, otherwise basics$.
 # Emit via a results='asis' chunk so pandoc parses the bullets.
-parse_summary_highlights <- function() {
-  hl <- resume$basics$summary_highlights
+parse_summary_highlights <- function(profile = NULL) {
+  hl <- if (!is.null(profile) && !is.null(resume$profiles[[profile]]$summary_highlights))
+    resume$profiles[[profile]]$summary_highlights
+  else
+    resume$basics$summary_highlights
   if (is.null(hl) || length(hl) == 0) return("")
   paste(vapply(hl, function(h) {
     paste0("- **", h$bold, "**: ", h$text)
@@ -217,13 +227,35 @@ parse_education <- function() {
 # ── Publications ──────────────────────────────────────────────
 # Returns one markdown bullet per publication, with the user's name bolded.
 # Standard reference format: Authors (Year). Title. *Journal* Vol, pp.
-parse_publications <- function() {
+# If the active profile has a pub_filter (list of IDs), only those are shown.
+# Submitted/in-review papers (volume == "submitted" or "") render without vol/pp.
+parse_publications <- function(profile = NULL) {
   pubs <- resume$publications$selected
+
+  # Filter by profile pub_filter if present
+  if (!is.null(profile) && !is.null(resume$profiles[[profile]]$pub_filter)) {
+    allowed_ids <- resume$profiles[[profile]]$pub_filter
+    pubs <- Filter(function(p) isTRUE(p$id %in% allowed_ids), pubs)
+  }
+
   if (is.null(pubs) || length(pubs) == 0) return("")
+
   refs <- vapply(pubs, function(p) {
     authors <- gsub("Camacho DM", "**Camacho DM**", p$authors, fixed = TRUE)
-    sprintf("- %s (%s). %s. *%s* %s, %s.",
-            authors, p$year, p$title, p$journal, p$volume, p$pages)
+    authors <- gsub("Camacho D,",  "**Camacho D**,",  authors,  fixed = TRUE)
+    # Handle submitted / in-review entries gracefully
+    vol <- if (is.null(p$volume)) "" else p$volume
+    pg  <- if (is.null(p$pages))  "" else p$pages
+    if (vol %in% c("submitted", "under review", "")) {
+      sprintf("- %s (%s). %s. *%s* (in review).",
+              authors, p$year, p$title, p$journal)
+    } else if (pg == "") {
+      sprintf("- %s (%s). %s. *%s* %s.",
+              authors, p$year, p$title, p$journal, vol)
+    } else {
+      sprintf("- %s (%s). %s. *%s* %s, %s.",
+              authors, p$year, p$title, p$journal, vol, pg)
+    }
   }, character(1))
   paste(refs, collapse = "\n")
 }

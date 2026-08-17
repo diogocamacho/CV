@@ -7,7 +7,7 @@
 
 args <- commandArgs(trailingOnly = TRUE)
 
-input_file  <- if (length(args) >= 1) args[1] else "DMC_executive.Rmd"
+input_file  <- if (length(args) >= 1) args[1] else "DMC.Rmd"
 output_dir  <- if (length(args) >= 2) args[2] else "."
 
 if (!file.exists(input_file)) {

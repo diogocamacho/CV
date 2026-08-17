@@ -11,7 +11,7 @@
     "location": "Sudbury, MA",
     "_github_commented": "diogocamacho",
     "linkedin": "diogocamacho",
-    "summary": "Scientific leader and builder at the frontier of AI and biology. Pi-shaped (deep in computational biology and ML, broad across the rest), with 15+ years leading computational teams across pharma, venture-backed biotech, and translational research.",
+    "summary": "Led and built computational organizations across biotech and pharma for 15+ years, from early-stage venture to scaled platform team. Deep in ML, multi-omics, and computational biology; broad across the discovery stack from target ID to preclinical validation. Drove organization-wide AI/ML adoption, built the computational platform narrative for fundraising, and presented strategy to boards and VC partners. Led global teams spanning the US and Europe. Secured >$2.4M in competitive DARPA and NIH funding; 6 patents; 20+ publications (7,000+ citations).",
     "summary_highlights": [
       {
         "bold": "Leadership through ambiguity",
@@ -288,54 +288,7 @@
     "include": true,
     "selected": [
       {
-        "authors": "Marbach D, Costello JC, Kuffner R, Vega NM, Prill RJ, Camacho DM, Allison KR, Kellis M, Collins JJ, Stolovitzky G",
-        "year": 2012,
-        "title": "Wisdom of crowds for robust gene network inference",
-        "journal": "Nature Methods",
-        "volume": "9",
-        "pages": "796-804"
-      },
-      {
-        "authors": "Camacho DM, Collins KM, Powers RK, Costello JC, Collins JJ",
-        "year": 2018,
-        "title": "Next-generation machine learning for biological networks",
-        "journal": "Cell",
-        "volume": "173",
-        "pages": "1581-1592"
-      },
-      {
-        "authors": "Valeri J, Collins KM, Ramesh P, Alcantar M, Lepe BA, Lu TK, Camacho DM",
-        "year": 2020,
-        "title": "Sequence-to-function deep learning frameworks for engineered riboregulators",
-        "journal": "Nature Communications",
-        "volume": "11",
-        "pages": "5058"
-      },
-      {
-        "authors": "Bojar D, Powers RK, Camacho DM, Collins JJ",
-        "year": 2020,
-        "title": "Deep-learning resources for studying glycan-mediated host-microbe interactions",
-        "journal": "Cell Host & Microbe",
-        "volume": "29",
-        "pages": "132-144"
-      },
-      {
-        "authors": "Gazzaniga FS, Camacho DM, Wu M, Palazzo MFS, Dinis ALM, Grafton FN, Cartwright MJ, Super M, Kasper DL, Ingber DE",
-        "year": 2021,
-        "title": "Harnessing colon chip technology to identify commensal bacteria that promote host tolerance to infection",
-        "journal": "Frontiers in Cellular and Infection Microbiology",
-        "volume": "11",
-        "pages": "638014"
-      },
-      {
-        "authors": "Sperry MM, Novak R, Keshari V, Dinis ALM, Cartwright MJ, Camacho DM, Pare JF, Super M, Levin M, Ingber DE",
-        "year": 2022,
-        "title": "Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches",
-        "journal": "Advanced Science",
-        "volume": "9",
-        "pages": "2200222"
-      },
-      {
+        "id": "bioa_2023",
         "authors": "Valeri JA, Soenksen LR, Collins KM, Ramesh P, Cai G, Powers R, Camacho DM, et al.",
         "year": 2023,
         "title": "BioAutoMATED: An end-to-end automated machine learning tool for explanation and design of biological sequences",
@@ -344,12 +297,184 @@
         "pages": "525"
       },
       {
+        "id": "tolerance_2022",
+        "authors": "Sperry MM, Novak R, Keshari V, Dinis ALM, Cartwright MJ, Camacho DM, Pare JF, Super M, Levin M, Ingber DE",
+        "year": 2022,
+        "title": "Enhancers of host immune tolerance to bacterial infection discovered using linked computational and experimental approaches",
+        "journal": "Advanced Science",
+        "volume": "9",
+        "pages": "2200222"
+      },
+      {
+        "id": "colon_2021",
+        "authors": "Gazzaniga FS, Camacho DM, Wu M, Palazzo MFS, Dinis ALM, Grafton FN, Cartwright MJ, Super M, Kasper DL, Ingber DE",
+        "year": 2021,
+        "title": "Harnessing colon chip technology to identify commensal bacteria that promote host tolerance to infection",
+        "journal": "Frontiers in Cellular and Infection Microbiology",
+        "volume": "11",
+        "pages": "638014"
+      },
+      {
+        "id": "riboswitches_2020",
+        "authors": "Valeri J, Collins KM, Ramesh P, Alcantar M, Lepe BA, Lu TK, Camacho DM",
+        "year": 2020,
+        "title": "Sequence-to-function deep learning frameworks for engineered riboregulators",
+        "journal": "Nature Communications",
+        "volume": "11",
+        "pages": "5058"
+      },
+      {
+        "id": "glycan_dl_2020",
+        "authors": "Bojar D, Powers RK, Camacho DM, Collins JJ",
+        "year": 2020,
+        "title": "Deep-learning resources for studying glycan-mediated host-microbe interactions",
+        "journal": "Cell Host & Microbe",
+        "volume": "29",
+        "pages": "132-144"
+      },
+      {
+        "id": "gut_chip_2019",
+        "authors": "Jalili-Firoozinezhad S, Gazzaniga FS, Calamari EL, Camacho DM, Fadel C, Nestor B, Cronce MJ, Tovaglieri A, Levy O, Gregory KE, Breault DT, Cabral JMS, Kasper DL, Novak R, Ingber DE",
+        "year": 2019,
+        "title": "A complex human gut microbiome cultured in an anaerobic intestine-on-a-chip",
+        "journal": "Nature Biomedical Engineering",
+        "volume": "3",
+        "pages": "520-531"
+      },
+      {
+        "id": "ecoli_2019",
+        "authors": "Tovaglieri A, Sontheimer-Phelps A, Geirnaert A, Prantil-Baun R, Camacho DM, Chou DB, Jalili-Firoozinezhad S, de Wouters T, Kasendra M, Super M, Cartwright M, Richmond CA, Breault DT, Lacroix C, Ingber DE",
+        "year": 2019,
+        "title": "Species-specific enhancement of enterohemorrhagic E. coli pathogenesis mediated by microbiome metabolites",
+        "journal": "Microbiome",
+        "volume": "7",
+        "pages": "43"
+      },
+      {
+        "id": "nlp_glycans_2019",
+        "authors": "Bojar D, Camacho DM, Collins JJ",
+        "year": 2019,
+        "title": "Using natural language processing to learn the language of glycans",
+        "journal": "Nature Communications",
+        "volume": "submitted",
+        "pages": ""
+      },
+      {
+        "id": "ml_cell_2018",
+        "authors": "Camacho DM, Collins KM, Powers RK, Costello JC, Collins JJ",
+        "year": 2018,
+        "title": "Next-generation machine learning for biological networks",
+        "journal": "Cell",
+        "volume": "173",
+        "pages": "1581-1592"
+      },
+      {
+        "id": "podocytes_2018",
+        "authors": "Musah S, Dimitrakakis N, Camacho DM, Church GM, Ingber DE",
+        "year": 2018,
+        "title": "Directed differentiation of human induced pluripotent stem cells into mature kidney podocytes and establishment of a Glomerulus Chip",
+        "journal": "Nature Protocols",
+        "volume": "13",
+        "pages": "1662-1685"
+      },
+      {
+        "id": "rnase_2014",
+        "authors": "Paandey SP, Winkler JA, Li H, Camacho DM, Collins JJ, Walker GC",
+        "year": 2014,
+        "title": "Central role for RNase YbeY in Hfq-dependent and Hfq-independent small-RNA regulation in bacteria",
+        "journal": "BMC Genomics",
+        "volume": "15",
+        "pages": "121"
+      },
+      {
+        "id": "tb_2013",
+        "authors": "Galagan JE, Minch K, Peterson M, Camacho D, et al.",
+        "year": 2013,
+        "title": "The Mycobacterium tuberculosis regulatory network and hypoxia",
+        "journal": "Nature",
+        "volume": "499",
+        "pages": "178-183"
+      },
+      {
+        "id": "fungicidal_2013",
+        "authors": "Belenky P, Camacho D, Collins JJ",
+        "year": 2013,
+        "title": "Fungicidal drugs induce a common oxidative-damage cellular death pathway",
+        "journal": "Cell Reports",
+        "volume": "3",
+        "pages": "350-358"
+      },
+      {
+        "id": "wisdom_crowds_2012",
+        "authors": "Marbach D, Costello JC, Kuffner R, Vega NM, Prill RJ, Camacho DM, Allison KR, Kellis M, Collins JJ, Stolovitzky G",
+        "year": 2012,
+        "title": "Wisdom of crowds for robust gene network inference",
+        "journal": "Nature Methods",
+        "volume": "9",
+        "pages": "796-804"
+      },
+      {
+        "id": "antibiotic_2011",
+        "authors": "Dwyer DJ, Camacho DM, Callura JM, Kohanski MA, Collins JJ",
+        "year": 2011,
+        "title": "Antibiotic-induced bacterial cell death exhibits physiological and biochemical hallmarks of apoptosis",
+        "journal": "Molecular Cell",
+        "volume": "46",
+        "pages": "561-572"
+      },
+      {
+        "id": "srna_2011",
+        "authors": "Modi SR, Camacho DM, Kohanski MA, Collins JJ",
+        "year": 2011,
+        "title": "Functional characterization of bacterial sRNAs using a network biology approach",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "volume": "108",
+        "pages": "15522-15527"
+      },
+      {
+        "id": "systems_gold_2009",
+        "authors": "Camacho DM, Collins JJ",
+        "year": 2009,
+        "title": "Systems biology strikes gold",
+        "journal": "Cell",
+        "volume": "137",
+        "pages": "24-26"
+      },
+      {
+        "id": "rev_eng_2007",
+        "authors": "Camacho D, Vera-Licona P, Laubenbacher R, Mendes P",
+        "year": 2007,
+        "title": "Comparison of existing reverse engineering methods by use of an in silico system",
+        "journal": "Annals of the New York Academy of Sciences",
+        "volume": "1115",
+        "pages": "73-89"
+      },
+      {
+        "id": "metabolomics_bs_2005",
+        "authors": "Mendes P, Camacho D, de la Fuente A",
+        "year": 2005,
+        "title": "Modelling and simulation for metabolomics data analysis",
+        "journal": "Biochemical Society Transactions",
+        "volume": "33",
+        "pages": "1427-1429"
+      },
+      {
+        "id": "metabolomics_orig_2005",
         "authors": "Camacho D, de la Fuente A, Mendes P",
         "year": 2005,
         "title": "The origin of correlations in metabolomics data",
         "journal": "Metabolomics",
         "volume": "1",
         "pages": "53-63"
+      },
+      {
+        "id": "yeast_2004",
+        "authors": "Martins AM, Camacho D, Shuman J, Sha W, Mendes P, Shulaev V",
+        "year": 2004,
+        "title": "A systems biology study of two distinct growth phases of Saccharomyces cerevisiae cultures",
+        "journal": "Current Genomics",
+        "volume": "5",
+        "pages": "649-663"
       }
     ],
     "footer": "Full publication list available on Google Scholar (7,000+ citations)"
@@ -366,17 +491,39 @@
     "description": "to support translational bioanalytics platforms at the Wyss Institute."
   },
   "profiles": {
-    "executive": {
-      "description": "Full executive CV — all roles, selected publications, patents, grants",
+    "default": {
+      "description": "Default CV — generic framing, all roles, full publication list, no profile-specific summary override",
       "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
       "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
       "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"]
+    },
+    "executive": {
+      "description": "Senior biotech/pharma executive roles (VP/SVP/C-level) — org-building arc, marquee publications only",
+      "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
+      "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
+      "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"],
+      "pub_filter": ["wisdom_crowds_2012", "ml_cell_2018", "riboswitches_2020", "tolerance_2022", "bioa_2023"],
+      "summary_highlights": [
+        {
+          "bold": "Organizational scale",
+          "text": "Built computational organizations at three ventures from scratch, growing to 25 people across Boston and Germany at Cellarity. Each started before the technical direction was clear."
+        },
+        {
+          "bold": "Platform outcomes",
+          "text": "Shipped AI platforms at each company that fed directly into fundraising. Led the computational strategy contribution to Rheos's Series B investor narrative; owned platform differentiation for Cellarity's board and VC partners."
+        },
+        {
+          "bold": "Capital and credibility",
+          "text": "Raised >$2.4M in competitive DARPA and NIH grants as Co-PI at the Wyss Institute. Six patents, 20+ publications (7,000+ citations). Primary computational interface for boards and founding investors across three companies."
+        }
+      ]
     },
     "az_cvrm": {
       "description": "Tailored for AstraZeneca ED Data & AI Early CVRM role",
       "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
       "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
       "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"],
+      "pub_filter": ["metabolomics_orig_2005", "wisdom_crowds_2012", "ml_cell_2018", "riboswitches_2020", "tolerance_2022", "bioa_2023"],
       "notes": "Emphasize CVRM thread: Metabolomics 2005 first paper, Pfizer CVMED, Rheos immunometabolism, multi-omics. Lead with biochemistry-to-metabolism arc."
     },
     "az_infectious_disease": {
@@ -384,6 +531,7 @@
       "work_filter": ["abio", "fsp", "42bio", "cellarity", "rheos", "wyss", "evelo", "ember", "pfizer", "hhmi"],
       "earlier_roles_collapsed": ["evelo", "ember", "pfizer", "hhmi"],
       "sections": ["summary", "strengths", "experience", "education", "publications", "patents", "grants"],
+      "pub_filter": ["gut_chip_2019", "ecoli_2019", "colon_2021", "tolerance_2022", "ml_cell_2018", "bioa_2023"],
       "notes": "Lead with Wyss infectious disease work — host tolerance paper, DARPA funding, closed-loop computational-experimental approach. Agentic AI at Abio is directly relevant to closed-loop platform mandate."
     }
   }
