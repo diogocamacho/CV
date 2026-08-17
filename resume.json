@@ -11,7 +11,7 @@
     "location": "Sudbury, MA",
     "_github_commented": "diogocamacho",
     "linkedin": "diogocamacho",
-    "summary": "Led and built computational organizations across biotech and pharma for 15+ years, from early-stage venture to scaled platform team. Deep in ML, multi-omics, and computational biology; broad across the discovery stack from target ID to preclinical validation. Drove organization-wide AI/ML adoption, built the computational platform narrative for fundraising, and presented strategy to boards and VC partners. Led global teams spanning the US and Europe. Secured >$2.4M in competitive DARPA and NIH funding; 6 patents; 20+ publications (7,000+ citations).",
+    "summary": "Led and built computational organizations across biotech and pharma for 15+ years, growing early-stage ventures into scaled platform teams. Expert in ML, multi-omics, and computational biology, with working command of the full discovery stack through preclinical validation. Drove organization-wide AI/ML adoption, built the computational platform narrative for fundraising and pharma partnerships (Roche, Novo Nordisk), and presented strategy to boards and VC partners. Led global teams across the US and Europe. Secured >$2.4M in competitive DARPA and NIH funding; 6 patents; 20+ publications (7,000+ citations).",
     "summary_highlights": [
       {
         "bold": "Leadership through ambiguity",
@@ -23,7 +23,7 @@
       },
       {
         "bold": "Building and judging talent",
-        "text": "Recruit and develop computational leaders: hiring, mentorship, succession planning, and the executive searches that fill senior gaps. Scaled from first hire to a 25-person group at Cellarity."
+        "text": "Recruit and develop computational leaders: hiring, mentorship, succession planning, and the executive searches that fill senior gaps. Built and held a 25-person group at Cellarity with 90%+ retention."
       },
       {
         "bold": "Executive credibility",
@@ -37,7 +37,7 @@
       "include": true,
       "company": "Flagship Pioneering",
       "position": "Senior Principal, Computation",
-      "context": "Computational and AI strategy across Pioneering Business Units; embedded in explorations, ProtoCos, and NewCos to establish novel bioplatforms.",
+      "context": "Computational and AI strategy across Pioneering Business Units, embedded in explorations, ProtoCos, and NewCos to build new bioplatforms.",
       "location": "Cambridge, MA",
       "startDate": "2024-10",
       "endDate": null,
@@ -46,22 +46,22 @@
         {
           "include": true,
           "bold": "Company origination",
-          "text": "AI lead on the founding team of FL111, owning computational efforts from exploration through seed funding. Advisory roles on FL106, FL108, and FL115 across the same stages."
+          "text": "AI lead on the FL111 founding team, owning computational efforts from exploration through seed. Advised FL106, FL108, and FL115 at the same stages."
         },
         {
           "include": true,
           "bold": "Venture platform strategy",
-          "text": "Computational and data strategy for multiple seed-stage ventures. Built platform capabilities and set the technical direction for early programs."
+          "text": "Set computational and data strategy for multiple seed-stage ventures, building the platform capabilities and technical direction for early programs."
         },
         {
           "include": true,
           "bold": "Agentic AI systems",
-          "text": "Built agentic AI systems for drug discovery and direct-to-consumer health applications across the Flagship portfolio."
+          "text": "Built agentic AI systems for drug discovery and DTC health applications across the Flagship portfolio."
         },
         {
           "include": true,
           "bold": "Talent and leadership",
-          "text": "Recruited and retained computational science leaders and team members across portfolio companies."
+          "text": "Recruited and retained computational leaders and staff across portfolio companies."
         }
       ],
       "embedded": [
@@ -71,7 +71,7 @@
           "company": "Abiologics",
           "descriptor": "Flagship Pioneering portfolio company",
           "position": "Head of Computational Sciences",
-          "context": "AI-driven D-amino acid mini-binder design platform; agentic AI for target identification and prioritization; led AI transformation for scientific and operational excellence.",
+          "context": "AI-driven D-amino acid mini-binder design platform; agentic AI for target identification and prioritization; leading the AI transformation across science and operations.",
           "location": "Cambridge, MA",
           "startDate": "2025-01",
           "endDate": null,
@@ -80,12 +80,12 @@
             {
               "include": true,
               "bold": "Platform strategy",
-              "text": "Lead the computational sciences function for a D-amino acid therapeutic platform: AI-first design strategy, operations, and execution."
+              "text": "Lead the computational sciences function for a D-amino acid therapeutic platform, owning AI-first design strategy, operations, and execution."
             },
             {
               "include": true,
               "bold": "Active learning",
-              "text": "Made active learning the core experimental-design approach for mini-binder optimization, so candidate prioritization across the DBT cycle runs on data."
+              "text": "Made active learning the engine of mini-binder optimization, cutting time-to-optimized-lead from 10 months to 2 by prioritizing the highest-information candidates each DBT cycle."
             },
             {
               "include": true,
@@ -95,7 +95,7 @@
             {
               "include": true,
               "bold": "Organizational leadership",
-              "text": "Own team growth and function end to end: hiring, performance management, budgeting, and executive search."
+              "text": "Own the function end to end (hiring, performance management, budgeting, executive search) across all 5 therapeutic programs."
             }
           ]
         }
@@ -124,7 +124,7 @@
       "company": "Cellarity",
       "descriptor": "Flagship Pioneering portfolio company",
       "position": "Vice President, Computational and Data Sciences",
-      "context": "Transformed the computational platform for cell-behavior medicine discovery; advanced AI/ML models for small-molecule identification via constratstive learning, supporting pharma partnerships.",
+      "context": "Transformed the computational platform for cell-behavior medicine discovery; advanced AI/ML models for small-molecule identification via contrastive learning, supporting pharma partnerships.",
       "location": "Boston, MA",
       "startDate": "2022-07",
       "endDate": "2024-02",
@@ -132,17 +132,17 @@
         {
           "include": true,
           "bold": "Executive leadership",
-          "text": "On the R&D Leadership Team, reporting to the CSO. Shaped corporate strategy where the computational platform met therapeutic portfolio direction."
+          "text": "On the R&D Leadership Team, reporting to the CSO. Shaped corporate strategy connecting the computational platform to therapeutic portfolio direction."
         },
         {
           "include": true,
           "bold": "Organizational build",
-          "text": "Scaled and led a 25-person computational organization across bioinformatics, ML, and computational biology, with teams in Boston and Germany."
+          "text": "Scaled and led a 25-person computational organization across bioinformatics, ML, and computational biology (Boston and Germany), retaining 95% through a company reorganization."
         },
         {
           "include": true,
           "bold": "Platform strategy",
-          "text": "Directed platform strategy and operations end to end. Put Cellarity's computational capabilities into R&D programs and into the investor narrative for fundraising."
+          "text": "Directed platform strategy and operations end to end across all 6 therapeutic programs; the platform delivered the targets behind Cellarity's MASH partnership with Novo Nordisk (up to $532M)."
         },
         {
           "include": true,
@@ -164,17 +164,17 @@
         {
           "include": true,
           "bold": "Precision medicine strategy",
-          "text": "Set the computational precision-medicine strategy for immunometabolism drug discovery: how patient stratification and multi-omics data would drive program decisions."
+          "text": "Set the computational precision-medicine strategy for immunometabolism drug discovery, defining how patient stratification and multi-omics data drove program decisions."
         },
         {
           "include": true,
           "bold": "AI and data strategy",
-          "text": "Defined and implemented Rheos' AI and data strategy with Research Informatics, across discovery and translational programs."
+          "text": "Defined and implemented Rheos' AI and data strategy with Research Informatics across discovery and translational programs."
         },
         {
           "include": true,
           "bold": "Platform delivery",
-          "text": "Built the MetPM platform and MetKG knowledge graph: patient-stratification algorithms and multi-omics tooling adopted across the pipeline."
+          "text": "Built the MetPM platform and MetKG knowledge graph (patient-stratification and multi-omics tooling adopted across the pipeline), and led the computational team delivering on Rheos's worldwide immunometabolism collaboration with Roche ($42.5M upfront, up to ~$750M in milestones)."
         },
         {
           "include": true,
@@ -196,7 +196,7 @@
         {
           "include": true,
           "bold": "Founding leadership",
-          "text": "Co-founded and led the Predictive BioAnalytics Initiative, a new ML/AI function embedded in translational science. Set the research strategy, secured the funding, and built the team from scratch."
+          "text": "Co-founded and led the Predictive BioAnalytics Initiative, a new ML/AI function in translational science: set the research strategy, secured funding, and built the team from scratch."
         },
         {
           "include": true,
@@ -206,7 +206,7 @@
         {
           "include": true,
           "bold": "Infectious disease research",
-          "text": "Co-led the computational side of host immune-tolerance research: transcriptomics that identified infection-response pathways, later validated experimentally and published in Advanced Science."
+          "text": "Co-led the computational side of host immune-tolerance research: transcriptomics that identified infection-response pathways, later validated and published in Advanced Science."
         },
         {
           "include": true,
