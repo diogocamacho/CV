@@ -15,11 +15,11 @@
     "summary_highlights": [
       {
         "bold": "Leadership through ambiguity",
-        "text": "Built and scaled computational organizations across three evolving ventures (Rheos, Cellarity, Abiologics), each from an undefined early mandate to a functioning platform team. Comfortable owning technical direction before the path is clear."
+        "text": "Built and scaled computational organizations across evolving ventures, from an undefined early mandate to a functioning platform team. Comfortable owning technical direction before the path is clear."
       },
       {
         "bold": "Technical innovation",
-        "text": "Shipped AI platforms across the discovery lifecycle: patient-stratification algorithms, active-learning frameworks, and agentic systems spanning target ID through preclinical validation."
+        "text": "Established AI platforms across the discovery lifecycle: patient-stratification, active-learning frameworks, and agentic systems spanning target ID through preclinical validation."
       },
       {
         "bold": "Building and judging talent",
@@ -51,7 +51,7 @@
         {
           "include": true,
           "bold": "Venture platform strategy",
-          "text": "Computational and data strategy for multiple seed-stage ventures (FL110, FL111, FL121). Built their platform capabilities and set the technical direction for early programs."
+          "text": "Computational and data strategy for multiple seed-stage ventures. Built platform capabilities and set the technical direction for early programs."
         },
         {
           "include": true,
@@ -61,7 +61,7 @@
         {
           "include": true,
           "bold": "Talent and leadership",
-          "text": "Recruited and retained computational science leaders across five portfolio companies (Ampersand, FL121, FL122, FL110, FL115)."
+          "text": "Recruited and retained computational science leaders and team members across portfolio companies."
         }
       ],
       "embedded": [
@@ -85,7 +85,7 @@
             {
               "include": true,
               "bold": "Active learning",
-              "text": "Made active learning the core experimental-design approach for mini-binder optimization, so candidate prioritization across the DBT cycle runs on data, not intuition."
+              "text": "Made active learning the core experimental-design approach for mini-binder optimization, so candidate prioritization across the DBT cycle runs on data."
             },
             {
               "include": true,
@@ -122,8 +122,9 @@
       "id": "cellarity",
       "include": true,
       "company": "Cellarity",
+      "descriptor": "Flagship Pioneering portfolio company",
       "position": "Vice President, Computational and Data Sciences",
-      "context": "Transformed the computational platform for cell-behavior medicine discovery; advanced AI/ML models for small-molecule identification supporting pharma partnerships.",
+      "context": "Transformed the computational platform for cell-behavior medicine discovery; advanced AI/ML models for small-molecule identification via constratstive learning, supporting pharma partnerships.",
       "location": "Boston, MA",
       "startDate": "2022-07",
       "endDate": "2024-02",
@@ -195,7 +196,7 @@
         {
           "include": true,
           "bold": "Founding leadership",
-          "text": "Founded and led the Predictive BioAnalytics Initiative, a new ML/AI function embedded in translational science. Set the research strategy, secured the funding, and built the team from scratch."
+          "text": "Co-founded and led the Predictive BioAnalytics Initiative, a new ML/AI function embedded in translational science. Set the research strategy, secured the funding, and built the team from scratch."
         },
         {
           "include": true,
